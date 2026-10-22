@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "id": "bp_0001",
+  "game": "blockpuzzle",
+  "payloadVersion": 1,
+  "contentHash": "de67f87d60b53b1b",
+  "meta": {
+    "difficulty": "easy",
+    "tags": ["score"],
+    "metrics": {
+      "nearMisses": 0.0,
+      "winRate": 1.0
+    }
+  },
+  "payload": {
+    "goal": "score",
+    "rows": ["........", "........", "........", "........", "........", "........", "........", "........"],
+    "pool": {
+      "dot": 1,
+      "i2": 4,
+      "i2v": 4,
+      "i3": 4,
+      "i3v": 4,
+      "o2": 4,
+      "c3a": 4,
+      "c3b": 4,
+      "c3c": 4,
+      "c3d": 4
+    },
+    "score": 160
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "id": "bp_0052",
+  "game": "blockpuzzle",
+  "payloadVersion": 1,
+  "contentHash": "b8b1aac867c06527",
+  "meta": {
+    "difficulty": "normal",
+    "tags": [
+      "score",
+      "picture:sun"
+    ],
+    "metrics": {
+      "nearMisses": 0.105,
+      "winRate": 0.683
+    }
+  },
+  "payload": {
+    "goal": "score",
+    "rows": ["........", ".B.BB.B.", "..CCCC..", ".BCCCCB.", ".BCCCCB.", "..CCCC..", ".B.BB.B.", "........"],
+    "pool": {
+      "dot": 1,
+      "i2": 4,
+      "i2v": 4,
+      "i3": 4,
+      "i3v": 4,
+      "o2": 4,
+      "c3a": 4,
+      "c3b": 4,
+      "c3c": 4,
+      "c3d": 4
+    },
+    "score": 100
+  }
+}

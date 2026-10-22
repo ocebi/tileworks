@@ -1,0 +1,27 @@
+{
+  "name": "BlockPuzzle.Tests",
+  "rootNamespace": "BlockPuzzle.Tests",
+  "references": [
+    "UnityEngine.TestRunner",
+    "UnityEditor.TestRunner",
+    "Tileworks.Kit.Core",
+    "Tileworks.Tiles.Model",
+    "Tileworks.Tiles.Search",
+    "Tileworks.Tiles.Generation",
+    "Tileworks.Tiles.Levels",
+    "BlockPuzzle.Model",
+    "BlockPuzzle.Generation"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "nunit.framework.dll",
+    "Newtonsoft.Json.dll"
+  ],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS"
+  ]
+}

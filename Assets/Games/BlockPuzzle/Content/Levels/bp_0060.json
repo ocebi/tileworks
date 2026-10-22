@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "id": "bp_0060",
+  "game": "blockpuzzle",
+  "payloadVersion": 1,
+  "contentHash": "c2726c634cba4b95",
+  "meta": {
+    "difficulty": "superHard",
+    "tags": [
+      "gems",
+      "picture:house"
+    ],
+    "metrics": {
+      "nearMisses": 0.02,
+      "winRate": 0.167
+    }
+  },
+  "payload": {
+    "goal": "gems",
+    "rows": ["........", "...AA...", "..AAAA..", ".AaaaaA.", ".BbbbbB.", ".BbffbB.", ".BbffbB.", "........"],
+    "pool": {
+      "dot": 1,
+      "i2": 4,
+      "i2v": 4,
+      "i3": 4,
+      "i3v": 4,
+      "o2": 4,
+      "c3a": 4,
+      "c3b": 4,
+      "c3c": 4,
+      "c3d": 4,
+      "i4": 9,
+      "i4v": 9,
+      "l4a": 9,
+      "l4b": 9,
+      "l4c": 9,
+      "l4d": 9,
+      "j4a": 9,
+      "j4b": 9,
+      "j4c": 9,
+      "j4d": 9,
+      "t4a": 9,
+      "t4b": 9,
+      "t4c": 9,
+      "t4d": 9,
+      "r23": 9,
+      "r32": 9,
+      "i5": 11,
+      "i5v": 11,
+      "s4": 11,
+      "s4v": 11,
+      "z4": 11,
+      "z4v": 11,
+      "c5a": 11,
+      "c5b": 11,
+      "c5c": 11,
+      "c5d": 11,
+      "o3": 11
+    }
+  }
+}

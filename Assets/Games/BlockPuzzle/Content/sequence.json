@@ -1,0 +1,423 @@
+{
+  "levels": [
+    {
+      "id": "bp_0001",
+      "reward": 20
+    },
+    {
+      "id": "bp_0002",
+      "reward": 20
+    },
+    {
+      "id": "bp_0003",
+      "reward": 20
+    },
+    {
+      "id": "bp_0004",
+      "reward": 20
+    },
+    {
+      "id": "bp_0005",
+      "reward": 30
+    },
+    {
+      "id": "bp_0006",
+      "reward": 30
+    },
+    {
+      "id": "bp_0007",
+      "reward": 30
+    },
+    {
+      "id": "bp_0008",
+      "reward": 30
+    },
+    {
+      "id": "bp_0009",
+      "reward": 30
+    },
+    {
+      "id": "bp_0010",
+      "reward": 50,
+      "label": "hard"
+    },
+    {
+      "id": "bp_0011",
+      "reward": 20
+    },
+    {
+      "id": "bp_0012",
+      "reward": 30
+    },
+    {
+      "id": "bp_0013",
+      "reward": 30
+    },
+    {
+      "id": "bp_0014",
+      "reward": 30
+    },
+    {
+      "id": "bp_0015",
+      "reward": 50,
+      "label": "hard"
+    },
+    {
+      "id": "bp_0016",
+      "reward": 20
+    },
+    {
+      "id": "bp_0017",
+      "reward": 30
+    },
+    {
+      "id": "bp_0018",
+      "reward": 30
+    },
+    {
+      "id": "bp_0019",
+      "reward": 30
+    },
+    {
+      "id": "bp_0020",
+      "reward": 50,
+      "label": "hard"
+    },
+    {
+      "id": "bp_0021",
+      "reward": 20
+    },
+    {
+      "id": "bp_0022",
+      "reward": 30
+    },
+    {
+      "id": "bp_0023",
+      "reward": 30
+    },
+    {
+      "id": "bp_0024",
+      "reward": 30
+    },
+    {
+      "id": "bp_0025",
+      "reward": 50,
+      "label": "hard"
+    },
+    {
+      "id": "bp_0026",
+      "reward": 20
+    },
+    {
+      "id": "bp_0027",
+      "reward": 30
+    },
+    {
+      "id": "bp_0028",
+      "reward": 30
+    },
+    {
+      "id": "bp_0029",
+      "reward": 30
+    },
+    {
+      "id": "bp_0030",
+      "reward": 50,
+      "label": "hard"
+    },
+    {
+      "id": "bp_0031",
+      "reward": 20
+    },
+    {
+      "id": "bp_0032",
+      "reward": 30
+    },
+    {
+      "id": "bp_0033",
+      "reward": 30
+    },
+    {
+      "id": "bp_0034",
+      "reward": 30
+    },
+    {
+      "id": "bp_0035",
+      "reward": 50,
+      "label": "hard"
+    },
+    {
+      "id": "bp_0036",
+      "reward": 20
+    },
+    {
+      "id": "bp_0037",
+      "reward": 30
+    },
+    {
+      "id": "bp_0038",
+      "reward": 30
+    },
+    {
+      "id": "bp_0039",
+      "reward": 30
+    },
+    {
+      "id": "bp_0040",
+      "reward": 50,
+      "label": "superHard"
+    },
+    {
+      "id": "bp_0041",
+      "reward": 20
+    },
+    {
+      "id": "bp_0042",
+      "reward": 20
+    },
+    {
+      "id": "bp_0043",
+      "reward": 30
+    },
+    {
+      "id": "bp_0044",
+      "reward": 30
+    },
+    {
+      "id": "bp_0045",
+      "reward": 50,
+      "label": "hard"
+    },
+    {
+      "id": "bp_0046",
+      "reward": 20
+    },
+    {
+      "id": "bp_0047",
+      "reward": 30
+    },
+    {
+      "id": "bp_0048",
+      "reward": 30
+    },
+    {
+      "id": "bp_0049",
+      "reward": 30
+    },
+    {
+      "id": "bp_0050",
+      "reward": 30,
+      "label": "hard"
+    },
+    {
+      "id": "bp_0051",
+      "reward": 20
+    },
+    {
+      "id": "bp_0052",
+      "reward": 30
+    },
+    {
+      "id": "bp_0053",
+      "reward": 30
+    },
+    {
+      "id": "bp_0054",
+      "reward": 30
+    },
+    {
+      "id": "bp_0055",
+      "reward": 30,
+      "label": "hard"
+    },
+    {
+      "id": "bp_0056",
+      "reward": 20
+    },
+    {
+      "id": "bp_0057",
+      "reward": 30
+    },
+    {
+      "id": "bp_0058",
+      "reward": 30
+    },
+    {
+      "id": "bp_0059",
+      "reward": 30
+    },
+    {
+      "id": "bp_0060",
+      "reward": 30,
+      "label": "superHard"
+    },
+    {
+      "id": "bp_0061",
+      "reward": 20
+    },
+    {
+      "id": "bp_0062",
+      "reward": 30
+    },
+    {
+      "id": "bp_0063",
+      "reward": 30
+    },
+    {
+      "id": "bp_0064",
+      "reward": 30
+    },
+    {
+      "id": "bp_0065",
+      "reward": 50,
+      "label": "hard"
+    },
+    {
+      "id": "bp_0066",
+      "reward": 20
+    },
+    {
+      "id": "bp_0067",
+      "reward": 30
+    },
+    {
+      "id": "bp_0068",
+      "reward": 30
+    },
+    {
+      "id": "bp_0069",
+      "reward": 30
+    },
+    {
+      "id": "bp_0070",
+      "reward": 50,
+      "label": "hard"
+    },
+    {
+      "id": "bp_0071",
+      "reward": 20
+    },
+    {
+      "id": "bp_0072",
+      "reward": 30
+    },
+    {
+      "id": "bp_0073",
+      "reward": 30
+    },
+    {
+      "id": "bp_0074",
+      "reward": 30
+    },
+    {
+      "id": "bp_0075",
+      "reward": 50,
+      "label": "superHard"
+    },
+    {
+      "id": "bp_0076",
+      "reward": 20
+    },
+    {
+      "id": "bp_0077",
+      "reward": 30
+    },
+    {
+      "id": "bp_0078",
+      "reward": 30
+    },
+    {
+      "id": "bp_0079",
+      "reward": 30
+    },
+    {
+      "id": "bp_0080",
+      "reward": 30,
+      "label": "hard"
+    },
+    {
+      "id": "bp_0081",
+      "reward": 20
+    },
+    {
+      "id": "bp_0082",
+      "reward": 30
+    },
+    {
+      "id": "bp_0083",
+      "reward": 30
+    },
+    {
+      "id": "bp_0084",
+      "reward": 30
+    },
+    {
+      "id": "bp_0085",
+      "reward": 50,
+      "label": "hard"
+    },
+    {
+      "id": "bp_0086",
+      "reward": 20
+    },
+    {
+      "id": "bp_0087",
+      "reward": 30
+    },
+    {
+      "id": "bp_0088",
+      "reward": 30
+    },
+    {
+      "id": "bp_0089",
+      "reward": 30
+    },
+    {
+      "id": "bp_0090",
+      "reward": 30,
+      "label": "hard"
+    },
+    {
+      "id": "bp_0091",
+      "reward": 20
+    },
+    {
+      "id": "bp_0092",
+      "reward": 30
+    },
+    {
+      "id": "bp_0093",
+      "reward": 30
+    },
+    {
+      "id": "bp_0094",
+      "reward": 30
+    },
+    {
+      "id": "bp_0095",
+      "reward": 50,
+      "label": "hard"
+    },
+    {
+      "id": "bp_0096",
+      "reward": 20
+    },
+    {
+      "id": "bp_0097",
+      "reward": 30
+    },
+    {
+      "id": "bp_0098",
+      "reward": 30
+    },
+    {
+      "id": "bp_0099",
+      "reward": 30
+    },
+    {
+      "id": "bp_0100",
+      "reward": 50,
+      "label": "superHard"
+    }
+  ]
+}

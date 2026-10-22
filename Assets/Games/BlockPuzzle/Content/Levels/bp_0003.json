@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "id": "bp_0003",
+  "game": "blockpuzzle",
+  "payloadVersion": 1,
+  "contentHash": "1436edb34ccce37b",
+  "meta": {
+    "difficulty": "easy",
+    "tags": [
+      "gems",
+      "picture:smiley"
+    ],
+    "metrics": {
+      "nearMisses": 0.0,
+      "winRate": 0.967
+    }
+  },
+  "payload": {
+    "goal": "gems",
+    "rows": ["........", "..CCCC..", ".CFCCFC.", ".CCCCCC.", ".CbccbC.", "..CBBC..", "........", "........"],
+    "pool": {
+      "dot": 1,
+      "i2": 4,
+      "i2v": 4,
+      "i3": 4,
+      "i3v": 4,
+      "o2": 4,
+      "c3a": 4,
+      "c3b": 4,
+      "c3c": 4,
+      "c3d": 4
+    }
+  }
+}

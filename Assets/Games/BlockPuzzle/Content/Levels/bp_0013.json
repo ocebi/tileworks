@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "id": "bp_0013",
+  "game": "blockpuzzle",
+  "payloadVersion": 1,
+  "contentHash": "49923ba458435d25",
+  "meta": {
+    "difficulty": "normal",
+    "tags": [
+      "gems",
+      "picture:tree"
+    ],
+    "metrics": {
+      "nearMisses": 0.111,
+      "winRate": 0.7
+    }
+  },
+  "payload": {
+    "goal": "gems",
+    "rows": ["...DD...", "..DddD..", ".DddddD.", "..DddD..", ".DddddD.", "...BB...", "...BB...", "........"],
+    "pool": {
+      "dot": 1,
+      "i2": 4,
+      "i2v": 4,
+      "i3": 4,
+      "i3v": 4,
+      "o2": 4,
+      "c3a": 4,
+      "c3b": 4,
+      "c3c": 4,
+      "c3d": 4,
+      "i4": 3,
+      "i4v": 3,
+      "l4a": 3,
+      "l4b": 3,
+      "l4c": 3,
+      "l4d": 3,
+      "j4a": 3,
+      "j4b": 3,
+      "j4c": 3,
+      "j4d": 3,
+      "t4a": 3,
+      "t4b": 3,
+      "t4c": 3,
+      "t4d": 3,
+      "r23": 3,
+      "r32": 3
+    }
+  }
+}

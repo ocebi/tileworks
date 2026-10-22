@@ -1,0 +1,7 @@
+{
+  "name": "BlockPuzzle.Api",
+  "rootNamespace": "BlockPuzzle.Api",
+  "references": ["Tileworks.Kit.Core"],
+  "noEngineReferences": true,
+  "autoReferenced": false
+}

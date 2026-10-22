@@ -1,0 +1,27 @@
+{
+  "name": "BlockPuzzle.Installer",
+  "rootNamespace": "BlockPuzzle.Installer",
+  "references": [
+    "Tileworks.Kit.Core",
+    "Tileworks.Kit.Injection",
+    "Tileworks.Kit.App",
+    "Tileworks.Kit.Save",
+    "Tileworks.Kit.Unity",
+    "Tileworks.Tiles.Model",
+    "Tileworks.Tiles.Levels",
+    "Tileworks.Tiles.View",
+    "Tileworks.Tiles.Installer",
+    "BlockPuzzle.Api",
+    "BlockPuzzle.Model",
+    "BlockPuzzle.Service",
+    "BlockPuzzle.Controller",
+    "BlockPuzzle.View",
+    "UniTask",
+    "Tileworks.Meta.Api",
+    "Tileworks.Meta.Config",
+    "Tileworks.Meta.Installer",
+    "Tileworks.Kit.Content",
+    "Tileworks.Kit.Content.Addressables"
+  ],
+  "autoReferenced": false
+}

@@ -1,0 +1,21 @@
+{
+  "name": "BlockPuzzle.Service",
+  "rootNamespace": "BlockPuzzle.Service",
+  "references": [
+    "Tileworks.Kit.Core",
+    "Tileworks.Kit.Save",
+    "Tileworks.Tiles.Model",
+    "Tileworks.Tiles.Levels",
+    "BlockPuzzle.Api",
+    "BlockPuzzle.Model",
+    "Gilzoide.SqliteNet",
+    "UniTask",
+    "Tileworks.Meta.Api",
+    "Tileworks.Meta.Config"
+  ],
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "Newtonsoft.Json.dll"
+  ],
+  "autoReferenced": false
+}

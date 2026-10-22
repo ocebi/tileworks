@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "id": "bp_0095",
+  "game": "blockpuzzle",
+  "payloadVersion": 1,
+  "contentHash": "3fd61c8c6e2479b5",
+  "meta": {
+    "difficulty": "hard",
+    "tags": [
+      "gems",
+      "picture:rocket"
+    ],
+    "metrics": {
+      "nearMisses": 0.429,
+      "winRate": 0.3
+    }
+  },
+  "payload": {
+    "goal": "gems",
+    "rows": ["...aa...", "..FffF..", "..FeeF..", "..FffF..", ".FffffF.", ".F.bb.F.", "...bb...", "........"],
+    "pool": {
+      "dot": 1,
+      "i2": 4,
+      "i2v": 4,
+      "i3": 4,
+      "i3v": 4,
+      "o2": 4,
+      "c3a": 4,
+      "c3b": 4,
+      "c3c": 4,
+      "c3d": 4,
+      "i4": 17,
+      "i4v": 17,
+      "l4a": 17,
+      "l4b": 17,
+      "l4c": 17,
+      "l4d": 17,
+      "j4a": 17,
+      "j4b": 17,
+      "j4c": 17,
+      "j4d": 17,
+      "t4a": 17,
+      "t4b": 17,
+      "t4c": 17,
+      "t4d": 17,
+      "r23": 17,
+      "r32": 17,
+      "i5": 23,
+      "i5v": 23,
+      "s4": 23,
+      "s4v": 23,
+      "z4": 23,
+      "z4v": 23,
+      "c5a": 23,
+      "c5b": 23,
+      "c5c": 23,
+      "c5d": 23,
+      "o3": 23
+    }
+  }
+}

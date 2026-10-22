@@ -1,0 +1,27 @@
+{
+  "name": "BlockPuzzle.PlayModeTests",
+  "rootNamespace": "BlockPuzzle.PlayModeTests",
+  "references": [
+    "UnityEngine.TestRunner",
+    "UnityEditor.TestRunner",
+    "Unity.InputSystem",
+    "Unity.InputSystem.TestFramework",
+    "Tileworks.Kit.Core",
+    "Tileworks.Kit.App",
+    "Tileworks.Kit.Injection",
+    "Tileworks.Tiles.Model",
+    "BlockPuzzle.Model",
+    "Tileworks.Meta.Api",
+    "BlockPuzzle.Api",
+    "BlockPuzzle.View",
+    "UnityEngine.UI"
+  ],
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "nunit.framework.dll"
+  ],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS"
+  ]
+}

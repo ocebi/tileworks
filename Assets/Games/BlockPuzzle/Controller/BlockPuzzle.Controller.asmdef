@@ -1,0 +1,20 @@
+{
+  "name": "BlockPuzzle.Controller",
+  "rootNamespace": "BlockPuzzle.Controller",
+  "references": [
+    "Tileworks.Kit.Core",
+    "Tileworks.Kit.App",
+    "Tileworks.Kit.Audio",
+    "Tileworks.Kit.Input",
+    "Tileworks.Tiles.Model",
+    "Tileworks.Tiles.Levels",
+    "Tileworks.Tiles.View",
+    "BlockPuzzle.Api",
+    "BlockPuzzle.Model",
+    "BlockPuzzle.Service",
+    "UniTask",
+    "Tileworks.Meta.Api",
+    "Tileworks.Kit.Unity"
+  ],
+  "autoReferenced": false
+}

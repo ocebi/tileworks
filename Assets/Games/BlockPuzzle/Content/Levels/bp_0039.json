@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "id": "bp_0039",
+  "game": "blockpuzzle",
+  "payloadVersion": 1,
+  "contentHash": "b1ee90683796bd05",
+  "meta": {
+    "difficulty": "normal",
+    "tags": [
+      "gems",
+      "picture:apple"
+    ],
+    "metrics": {
+      "nearMisses": 0.13,
+      "winRate": 0.617
+    }
+  },
+  "payload": {
+    "goal": "gems",
+    "rows": ["........", "...BD...", "..AAAA..", ".AAaaAA.", ".AaaaaA.", ".AaaaaA.", "..A..A..", "........"],
+    "pool": {
+      "dot": 1,
+      "i2": 4,
+      "i2v": 4,
+      "i3": 4,
+      "i3v": 4,
+      "o2": 4,
+      "c3a": 4,
+      "c3b": 4,
+      "c3c": 4,
+      "c3d": 4,
+      "i4": 3,
+      "i4v": 3,
+      "l4a": 3,
+      "l4b": 3,
+      "l4c": 3,
+      "l4d": 3,
+      "j4a": 3,
+      "j4b": 3,
+      "j4c": 3,
+      "j4d": 3,
+      "t4a": 3,
+      "t4b": 3,
+      "t4c": 3,
+      "t4d": 3,
+      "r23": 3,
+      "r32": 3,
+      "i5": 2,
+      "i5v": 2,
+      "s4": 2,
+      "s4v": 2,
+      "z4": 2,
+      "z4v": 2,
+      "c5a": 2,
+      "c5b": 2,
+      "c5c": 2,
+      "c5d": 2,
+      "o3": 2
+    }
+  }
+}

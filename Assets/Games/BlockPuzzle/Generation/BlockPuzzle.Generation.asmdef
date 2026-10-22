@@ -1,0 +1,7 @@
+{
+  "name": "BlockPuzzle.Generation",
+  "rootNamespace": "BlockPuzzle.Generation",
+  "references": ["Tileworks.Kit.Core", "Tileworks.Tiles.Model", "Tileworks.Tiles.Search", "BlockPuzzle.Model", "Tileworks.Tiles.Generation"],
+  "noEngineReferences": true,
+  "autoReferenced": false
+}

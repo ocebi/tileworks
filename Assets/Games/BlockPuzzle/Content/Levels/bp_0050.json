@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "id": "bp_0050",
+  "game": "blockpuzzle",
+  "payloadVersion": 1,
+  "contentHash": "0cbae1f3dd0ef6c2",
+  "meta": {
+    "difficulty": "hard",
+    "tags": [
+      "gems",
+      "picture:pumpkin"
+    ],
+    "metrics": {
+      "nearMisses": 0.023,
+      "winRate": 0.283
+    }
+  },
+  "payload": {
+    "goal": "gems",
+    "rows": ["........", "...DD...", ".BbbbbB.", ".BcbbcB.", ".BbbbbB.", ".BccccB.", "..BBBB..", "........"],
+    "pool": {
+      "dot": 1,
+      "i2": 4,
+      "i2v": 4,
+      "i3": 4,
+      "i3v": 4,
+      "o2": 4,
+      "c3a": 4,
+      "c3b": 4,
+      "c3c": 4,
+      "c3d": 4,
+      "i4": 5,
+      "i4v": 5,
+      "l4a": 5,
+      "l4b": 5,
+      "l4c": 5,
+      "l4d": 5,
+      "j4a": 5,
+      "j4b": 5,
+      "j4c": 5,
+      "j4d": 5,
+      "t4a": 5,
+      "t4b": 5,
+      "t4c": 5,
+      "t4d": 5,
+      "r23": 5,
+      "r32": 5,
+      "i5": 5,
+      "i5v": 5,
+      "s4": 5,
+      "s4v": 5,
+      "z4": 5,
+      "z4v": 5,
+      "c5a": 5,
+      "c5b": 5,
+      "c5c": 5,
+      "c5d": 5,
+      "o3": 5
+    }
+  }
+}

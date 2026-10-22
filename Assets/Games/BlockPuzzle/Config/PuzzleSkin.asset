@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b7c1b03782846cfa06255bba207f20, type: 3}
+  m_Name: PuzzleSkin
+  m_EditorClassIdentifier: BlockPuzzle.View::BlockPuzzle.View.PuzzleSkin
+  _block: {fileID: 21300000, guid: 55bb0177a9d6647a5a5daea2ed69e9ed, type: 3}
+  _cell: {fileID: 21300000, guid: 00094246f034e4c898765de0feaf34fe, type: 3}
+  _gem: {fileID: 21300000, guid: 14cf7d065103449ef95e70063c786029, type: 3}
+  _frame: {fileID: 21300000, guid: 64577261d60944bcd8e5f9a8c3ab4d85, type: 3}
+  _spriteMaterial: {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
+  _colours:
+  - {r: 0.92156863, g: 0.3019608, b: 0.29411766, a: 1}
+  - {r: 0.9607843, g: 0.60784316, b: 0.1764706, a: 1}
+  - {r: 0.9607843, g: 0.8039216, b: 0.23529412, a: 1}
+  - {r: 0.37254903, g: 0.78431374, b: 0.3529412, a: 1}
+  - {r: 0.27450982, g: 0.78431374, b: 0.88235295, a: 1}
+  - {r: 0.29411766, g: 0.47058824, b: 0.92156863, a: 1}
+  - {r: 0.64705884, g: 0.37254903, b: 0.88235295, a: 1}
+  _cellTint: {r: 0.1, g: 0.13, b: 0.3, a: 1}
+  _frameTint: {r: 0.06, g: 0.08, b: 0.2, a: 1}
+  _ghostAlpha: 0.45

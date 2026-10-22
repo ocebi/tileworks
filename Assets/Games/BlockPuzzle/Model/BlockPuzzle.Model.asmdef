@@ -1,0 +1,16 @@
+{
+  "name": "BlockPuzzle.Model",
+  "rootNamespace": "BlockPuzzle.Model",
+  "references": [
+    "Tileworks.Kit.Core",
+    "Tileworks.Tiles.Model",
+    "Tileworks.Tiles.Search",
+    "Tileworks.Tiles.Levels"
+  ],
+  "noEngineReferences": true,
+  "autoReferenced": false,
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "Newtonsoft.Json.dll"
+  ]
+}

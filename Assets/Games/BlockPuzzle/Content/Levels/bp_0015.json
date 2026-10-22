@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "id": "bp_0015",
+  "game": "blockpuzzle",
+  "payloadVersion": 1,
+  "contentHash": "2f5e2170ac2880bd",
+  "meta": {
+    "difficulty": "hard",
+    "tags": [
+      "gems",
+      "picture:ice cream"
+    ],
+    "metrics": {
+      "nearMisses": 0.049,
+      "winRate": 0.317
+    }
+  },
+  "payload": {
+    "goal": "gems",
+    "rows": ["........", "...GG...", "..GggG..", ".GggggG.", ".BbbbbB.", "..BbbB..", "...bb...", "........"],
+    "pool": {
+      "dot": 1,
+      "i2": 4,
+      "i2v": 4,
+      "i3": 4,
+      "i3v": 4,
+      "o2": 4,
+      "c3a": 4,
+      "c3b": 4,
+      "c3c": 4,
+      "c3d": 4,
+      "i4": 7,
+      "i4v": 7,
+      "l4a": 7,
+      "l4b": 7,
+      "l4c": 7,
+      "l4d": 7,
+      "j4a": 7,
+      "j4b": 7,
+      "j4c": 7,
+      "j4d": 7,
+      "t4a": 7,
+      "t4b": 7,
+      "t4c": 7,
+      "t4d": 7,
+      "r23": 7,
+      "r32": 7,
+      "i5": 8,
+      "i5v": 8,
+      "s4": 8,
+      "s4v": 8,
+      "z4": 8,
+      "z4v": 8,
+      "c5a": 8,
+      "c5b": 8,
+      "c5c": 8,
+      "c5d": 8,
+      "o3": 8
+    }
+  }
+}

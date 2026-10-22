@@ -1,0 +1,22 @@
+{
+  "name": "BlockPuzzle.View",
+  "rootNamespace": "BlockPuzzle.View",
+  "references": [
+    "Tileworks.Kit.Core",
+    "Tileworks.Kit.App",
+    "Tileworks.Kit.Audio",
+    "Tileworks.Kit.Unity",
+    "Tileworks.Kit.UI",
+    "Tileworks.Kit.Haptics",
+    "Tileworks.Tiles.Model",
+    "Tileworks.Tiles.View",
+    "BlockPuzzle.Api",
+    "BlockPuzzle.Model",
+    "BlockPuzzle.Controller",
+    "PrimeTween.Runtime",
+    "Unity.TextMeshPro",
+    "UnityEngine.UI",
+    "UniTask"
+  ],
+  "autoReferenced": false
+}

@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "id": "bp_0070",
+  "game": "blockpuzzle",
+  "payloadVersion": 1,
+  "contentHash": "cde84091ccb436e9",
+  "meta": {
+    "difficulty": "hard",
+    "tags": [
+      "gems",
+      "picture:towers"
+    ],
+    "metrics": {
+      "nearMisses": 0.023,
+      "winRate": 0.267
+    }
+  },
+  "payload": {
+    "goal": "gems",
+    "rows": ["........", ".EE..EE.", ".Ee..eE.", ".ee..ee.", ".ee..ee.", ".ee..ee.", "........", "........"],
+    "pool": {
+      "dot": 1,
+      "i2": 4,
+      "i2v": 4,
+      "i3": 4,
+      "i3v": 4,
+      "o2": 4,
+      "c3a": 4,
+      "c3b": 4,
+      "c3c": 4,
+      "c3d": 4,
+      "i4": 11,
+      "i4v": 11,
+      "l4a": 11,
+      "l4b": 11,
+      "l4c": 11,
+      "l4d": 11,
+      "j4a": 11,
+      "j4b": 11,
+      "j4c": 11,
+      "j4d": 11,
+      "t4a": 11,
+      "t4b": 11,
+      "t4c": 11,
+      "t4d": 11,
+      "r23": 11,
+      "r32": 11,
+      "i5": 14,
+      "i5v": 14,
+      "s4": 14,
+      "s4v": 14,
+      "z4": 14,
+      "z4v": 14,
+      "c5a": 14,
+      "c5b": 14,
+      "c5c": 14,
+      "c5d": 14,
+      "o3": 14
+    }
+  }
+}
