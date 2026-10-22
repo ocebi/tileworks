@@ -1,0 +1,13 @@
+{
+  "name": "Tileworks.Meta.Economy.Service",
+  "rootNamespace": "Tileworks.Meta.Economy",
+  "references": [
+    "Tileworks.Kit.Core",
+    "Tileworks.Kit.Save",
+    "Tileworks.Meta.Api",
+    "Gilzoide.SqliteNet",
+    "UniTask",
+    "Tileworks.Meta.Config"
+  ],
+  "autoReferenced": false
+}

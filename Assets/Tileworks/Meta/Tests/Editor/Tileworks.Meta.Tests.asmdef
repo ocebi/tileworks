@@ -1,0 +1,10 @@
+{
+  "name": "Tileworks.Meta.Tests",
+  "rootNamespace": "Tileworks.Meta.Tests",
+  "references": ["UnityEngine.TestRunner", "UnityEditor.TestRunner", "Tileworks.Kit.Core", "Tileworks.Kit.Save", "Tileworks.Meta.Api", "Tileworks.Meta.Config", "Tileworks.Meta.Economy.Service", "Tileworks.Meta.Boosters.Service"],
+  "includePlatforms": ["Editor"],
+  "overrideReferences": true,
+  "precompiledReferences": ["nunit.framework.dll", "Newtonsoft.Json.dll"],
+  "autoReferenced": false,
+  "defineConstraints": ["UNITY_INCLUDE_TESTS"]
+}

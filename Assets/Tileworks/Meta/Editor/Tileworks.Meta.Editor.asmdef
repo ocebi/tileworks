@@ -1,0 +1,7 @@
+{
+  "name": "Tileworks.Meta.Editor",
+  "rootNamespace": "Tileworks.Meta.Editor",
+  "references": ["Tileworks.Kit.Core", "Tileworks.Kit.App", "Tileworks.Kit.Injection", "Tileworks.Kit.Time"],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": false
+}

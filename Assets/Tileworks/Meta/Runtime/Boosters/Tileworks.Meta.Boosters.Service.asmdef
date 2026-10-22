@@ -1,0 +1,6 @@
+{
+  "name": "Tileworks.Meta.Boosters.Service",
+  "rootNamespace": "Tileworks.Meta.Boosters",
+  "references": ["Tileworks.Kit.Core", "Tileworks.Kit.Save", "Tileworks.Meta.Api", "Tileworks.Meta.Config", "UniTask"],
+  "autoReferenced": false
+}

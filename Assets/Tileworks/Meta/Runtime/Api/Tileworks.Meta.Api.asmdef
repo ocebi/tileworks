@@ -1,0 +1,7 @@
+{
+  "name": "Tileworks.Meta.Api",
+  "rootNamespace": "Tileworks.Meta.Api",
+  "references": ["Tileworks.Kit.Core"],
+  "noEngineReferences": true,
+  "autoReferenced": false
+}

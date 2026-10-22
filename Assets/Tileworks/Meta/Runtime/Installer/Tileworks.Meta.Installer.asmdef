@@ -1,0 +1,6 @@
+{
+  "name": "Tileworks.Meta.Installer",
+  "rootNamespace": "Tileworks.Meta.Installer",
+  "references": ["Tileworks.Kit.Core", "Tileworks.Kit.Injection", "Tileworks.Kit.Save", "Tileworks.Meta.Api", "Tileworks.Meta.Config", "Tileworks.Meta.Economy.Service", "Tileworks.Meta.Boosters.Service", "Tileworks.Kit.App"],
+  "autoReferenced": false
+}

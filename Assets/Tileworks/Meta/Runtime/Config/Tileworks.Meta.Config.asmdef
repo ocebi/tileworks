@@ -1,0 +1,9 @@
+{
+  "name": "Tileworks.Meta.Config",
+  "rootNamespace": "Tileworks.Meta.Config",
+  "references": ["Tileworks.Kit.Core", "Tileworks.Meta.Api"],
+  "overrideReferences": true,
+  "precompiledReferences": ["Newtonsoft.Json.dll"],
+  "noEngineReferences": true,
+  "autoReferenced": false
+}
