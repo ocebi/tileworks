@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5039e6779cd4bd8872adba9150dd33, type: 3}
+  m_Name: RemoteLevels
+  m_EditorClassIdentifier: Tileworks.Tiles.View::Tileworks.Tiles.View.RemoteLevelsConfig
+  _manifestUrl: https://ocebi.github.io/tessera/levels/{game}/manifest.json
+  _inEditor: 0
+  _bootWaitMs: 1500
+  _timeoutSeconds: 8
+  _retryDelaysMs: e8030000b80b0000
+  _maxParallel: 4
+  _refreshMinutes: 30

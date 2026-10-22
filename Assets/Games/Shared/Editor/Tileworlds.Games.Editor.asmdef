@@ -1,0 +1,7 @@
+{
+  "name": "Tileworlds.Games.Editor",
+  "rootNamespace": "Tileworlds.Games.Editor",
+  "references": ["Tileworks.Kit.Core", "Tileworks.Kit.App", "Tileworks.Kit.Audio", "Tileworks.Kit.Injection", "Tileworks.Kit.UI", "Tileworks.Tiles.View", "Unity.TextMeshPro", "UnityEngine.UI", "Unity.RenderPipelines.Universal.Runtime"],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": false
+}

@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b38f6633445f24bde90f5c4b387fb225, type: 3}
+  m_Name: UiMotion
+  m_EditorClassIdentifier: Tileworks.Kit.UI::Tileworks.Kit.UI.UiMotionConfig
+  _openScale: 0.7
+  _openDuration: 0.35
+  _openEase: 27
+  _scrimDuration: 0.2
+  _closeScale: 0.85
+  _closeDuration: 0.18
+  _closeEase: 5
+  _pressScale: 0.92
+  _pressDuration: 0.08
+  _releaseDuration: 0.22
+  _releaseEase: 27
+  _punchStrength: 0.2
+  _punchDuration: 0.25
+  _shakeAngle: 10
+  _shakeDuration: 0.3
+  _countDuration: 0.7
+  _countEase: 9
+  _fillDuration: 0.35
+  _fillEase: 9
+  _popDuration: 0.3
+  _popEase: 27
+  _stagger: 0.06
+  _breatheScale: 1.04
+  _breathePeriod: 1.6
+  _revealGap: 0.25
+  _spinPeriod: 14
+  _twinklePeriod: 1.2
+  _click: {fileID: 8300000, guid: 9d92420588d0a49d2981e31bbd08048f, type: 3}
+  _clickVolume: 0.5
+  _sounds:
+  - Sound: 0
+    Clip: {fileID: 8300000, guid: d9edbc8f303fb4fcfa9581d7b7d76e8c, type: 3}
+    Volume: 0.45
+  - Sound: 1
+    Clip: {fileID: 8300000, guid: cfd54c2cc86674f5ab58f80e045bceef, type: 3}
+    Volume: 0.4
+  - Sound: 2
+    Clip: {fileID: 8300000, guid: 4a34585fe6e904ff982e7b8491f2c496, type: 3}
+    Volume: 0.35
+  - Sound: 3
+    Clip: {fileID: 8300000, guid: 0094aeaff4a1842acb3e024248452628, type: 3}
+    Volume: 0.7
+  - Sound: 4
+    Clip: {fileID: 8300000, guid: 708fdcaac9a5442de9d6b3b2ede453fe, type: 3}
+    Volume: 0.7
+  - Sound: 5
+    Clip: {fileID: 8300000, guid: a772715f2eec946a6ab030f9c093f1db, type: 3}
+    Volume: 0.6
+  - Sound: 6
+    Clip: {fileID: 8300000, guid: 3a18f2e95efc04cae8b61d7f45ea7dc6, type: 3}
+    Volume: 0.5
+  - Sound: 7
+    Clip: {fileID: 8300000, guid: 593010bd9ff1443f081f4d0685a32750, type: 3}
+    Volume: 0.6
+  - Sound: 8
+    Clip: {fileID: 8300000, guid: 45b137fd800e54ab28f9d387cfa0caa5, type: 3}
+    Volume: 0.6
+  - Sound: 9
+    Clip: {fileID: 8300000, guid: 2e289296f0e174a42a67bbd83bc6f144, type: 3}
+    Volume: 0.6
+  _soundGap: 0.04
+  _tickEvery: 0.07
+  _stepCap: 12
+  _calloutIn: 0.25
+  _calloutHold: 0.5
+  _calloutRise: 30
+  _calloutOut: 0.3
+  _bannerIn: 0.3
+  _bannerHold: 1
+  _bannerOut: 0.25
+  _stepReset: 0.6
+  _lowMoves: 5
+  _alarmColour: {r: 1, g: 0.28235295, b: 0.23529412, a: 1}
+  _alarmScale: 1.14
+  _alarmPeriod: 0.7
+  _sparkleEvery: 2.5
+  _calmFade: 0.15

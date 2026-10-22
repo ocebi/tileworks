@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396447b5474f54cf69802b9b110c8b2d, type: 3}
+  m_Name: BurstCoinBurst
+  m_EditorClassIdentifier: Tileworks.Kit.UI::Tileworks.Kit.UI.UiBurstConfig
+  _count: 10
+  _reducedShare: 0.35
+  _spread: 120
+  _speed: {x: 600, y: 1000}
+  _jitter: 10
+  _gravity: -2600
+  _drag: 0.8
+  _sway: 0
+  _life: {x: 0.55, y: 0.75}
+  _fadeFrom: 0.6
+  _size: {x: 44, y: 60}
+  _spin: {x: 0, y: 120}
+  _growIn: 0.06
+  _palette: []
+  _trailEvery: 0.04

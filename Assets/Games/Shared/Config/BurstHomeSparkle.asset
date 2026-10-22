@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396447b5474f54cf69802b9b110c8b2d, type: 3}
+  m_Name: BurstHomeSparkle
+  m_EditorClassIdentifier: Tileworks.Kit.UI::Tileworks.Kit.UI.UiBurstConfig
+  _count: 2
+  _reducedShare: 0.35
+  _spread: 360
+  _speed: {x: 30, y: 70}
+  _jitter: 460
+  _gravity: 30
+  _drag: 0.5
+  _sway: 30
+  _life: {x: 1.2, y: 2}
+  _fadeFrom: 0.5
+  _size: {x: 26, y: 44}
+  _spin: {x: 20, y: 80}
+  _growIn: 0.3
+  _palette:
+  - {r: 1, g: 0.9254902, b: 0.54901963, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 0.8039216, b: 0.27450982, a: 1}
+  _trailEvery: 0.04

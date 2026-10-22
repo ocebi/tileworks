@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49a5979a4b99844649db04a87249f54c, type: 3}
+  m_Name: LevelListSkin
+  m_EditorClassIdentifier: Tileworks.Tiles.View::Tileworks.Tiles.View.LevelListSkin
+  _cleared: {fileID: 21300000, guid: 67b9294e6e88b4b60896fc71030795cb, type: 3}
+  _clearedSlice: 1
+  _current: {fileID: 21300000, guid: 6b05541cceb6a4d2cbac71ff1b8a1c9b, type: 3}
+  _currentSlice: 1.0977273
+  _locked: {fileID: 21300000, guid: 5d19a3ebaeae840c1afb10e4f2c1a404, type: 3}
+  _lockedSlice: 1
+  _lockedTint: {r: 1, g: 1, b: 1, a: 0.85}
+  _clearedNumber: {r: 0.16470589, g: 0.05490196, b: 0.043137256, a: 1}
+  _currentNumber: {fileID: 2100000, guid: dd13c39a38be54c629e51d718ac7cc77, type: 2}
+  _selectedScale: 1.08
+  _selectDuration: 0.25
+  _caption: {r: 0.2901961, g: 0.2, b: 0.1882353, a: 1}
+  _refusal: {r: 0.78431374, g: 0.15686275, b: 0.11764706, a: 1}

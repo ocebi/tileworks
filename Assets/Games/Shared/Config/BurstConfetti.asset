@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396447b5474f54cf69802b9b110c8b2d, type: 3}
+  m_Name: BurstConfetti
+  m_EditorClassIdentifier: Tileworks.Kit.UI::Tileworks.Kit.UI.UiBurstConfig
+  _count: 90
+  _reducedShare: 0.35
+  _spread: 34
+  _speed: {x: 1500, y: 2300}
+  _jitter: 10
+  _gravity: -1300
+  _drag: 1.6
+  _sway: 260
+  _life: {x: 1.8, y: 2.6}
+  _fadeFrom: 0.8
+  _size: {x: 40, y: 64}
+  _spin: {x: 180, y: 540}
+  _growIn: 0.06
+  _palette:
+  - {r: 1, g: 0.36078432, b: 0.36078432, a: 1}
+  - {r: 1, g: 0.7882353, b: 0.18039216, a: 1}
+  - {r: 0.32941177, g: 0.8235294, b: 0.4, a: 1}
+  - {r: 0.24313726, g: 0.627451, b: 1, a: 1}
+  - {r: 0.7294118, g: 0.47058824, b: 1, a: 1}
+  - {r: 1, g: 0.54901963, b: 0.78431374, a: 1}
+  _trailEvery: 0.04
