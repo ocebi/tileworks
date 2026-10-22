@@ -1,0 +1,9 @@
+{
+  "name": "Tileworks.Tiles.Levels",
+  "rootNamespace": "Tileworks.Tiles.Levels",
+  "references": ["Tileworks.Kit.Core", "UniTask"],
+  "noEngineReferences": true,
+  "overrideReferences": true,
+  "precompiledReferences": ["Newtonsoft.Json.dll"],
+  "autoReferenced": false
+}

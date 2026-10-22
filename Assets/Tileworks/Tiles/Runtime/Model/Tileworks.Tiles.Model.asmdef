@@ -1,0 +1,7 @@
+{
+  "name": "Tileworks.Tiles.Model",
+  "rootNamespace": "Tileworks.Tiles.Model",
+  "references": ["Tileworks.Kit.Core", "UniTask"],
+  "noEngineReferences": true,
+  "autoReferenced": false
+}

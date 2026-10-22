@@ -1,0 +1,6 @@
+{
+  "name": "Tileworks.Tiles.View",
+  "rootNamespace": "Tileworks.Tiles.View",
+  "references": ["Tileworks.Kit.Core", "Tileworks.Kit.Unity", "Tileworks.Kit.App", "Tileworks.Kit.Input", "Tileworks.Kit.UI", "Tileworks.Tiles.Model", "Tileworks.Tiles.Levels", "UniTask", "PrimeTween.Runtime", "Unity.TextMeshPro", "UnityEngine.UI"],
+  "autoReferenced": false
+}

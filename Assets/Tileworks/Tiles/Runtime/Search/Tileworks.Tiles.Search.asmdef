@@ -1,0 +1,7 @@
+{
+  "name": "Tileworks.Tiles.Search",
+  "rootNamespace": "Tileworks.Tiles.Search",
+  "references": ["Tileworks.Kit.Core", "Tileworks.Tiles.Model"],
+  "noEngineReferences": true,
+  "autoReferenced": false
+}

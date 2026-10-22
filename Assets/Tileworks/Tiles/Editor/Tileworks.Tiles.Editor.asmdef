@@ -1,0 +1,17 @@
+{
+  "name": "Tileworks.Tiles.Editor",
+  "rootNamespace": "Tileworks.Tiles.Editor",
+  "references": [
+    "Tileworks.Kit.Core",
+    "Tileworks.Tiles.Levels",
+    "Tileworks.Tiles.View"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "Newtonsoft.Json.dll"
+  ],
+  "autoReferenced": false
+}

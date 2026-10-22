@@ -1,0 +1,30 @@
+{
+  "name": "Tileworks.Tiles.Tests",
+  "rootNamespace": "Tileworks.Tiles.Tests",
+  "references": [
+    "UnityEngine.TestRunner",
+    "UnityEditor.TestRunner",
+    "Tileworks.Kit.Core",
+    "Tileworks.Tiles.Model",
+    "Tileworks.Tiles.Levels",
+    "Tileworks.Tiles.Generation",
+    "Tileworks.Tiles.Search",
+    "Tileworks.Tiles.Editor",
+    "Tileworks.Tiles.View",
+    "Tileworks.Kit.App",
+    "UniTask",
+    "PrimeTween.Runtime"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "nunit.framework.dll",
+    "Newtonsoft.Json.dll"
+  ],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS"
+  ]
+}
