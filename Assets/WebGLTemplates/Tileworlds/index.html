@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes">
+  <meta name="theme-color" content="#3d8fe0">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Tileworlds">
+  <title>{{{ PRODUCT_NAME }}}</title>
+  <link rel="manifest" href="TemplateData/manifest.webmanifest">
+  <link rel="icon" href="TemplateData/mark.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="TemplateData/icon-180.png">
+  <link rel="preload" href="TemplateData/LilitaOne-Regular.ttf" as="font" type="font/ttf" crossorigin>
+  <style>
+    @font-face { font-family: "Lilita One"; src: url("TemplateData/LilitaOne-Regular.ttf") format("truetype"); font-display: block; }
+    :root { --ink: #0a1b40; --sky-top: #3d8fe0; --sky-bottom: #bfe6ff; --fill-top: #ffe066; --fill-bottom: #f5a623; }
+    html, body { margin: 0; padding: 0; height: 100%; overflow: hidden; overscroll-behavior: none; -webkit-tap-highlight-color: transparent;
+      background: linear-gradient(rgba(10, 27, 64, 0.45), rgba(10, 27, 64, 0.45)), linear-gradient(var(--sky-top), var(--sky-bottom)); }
+    #frame { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; }
+    /* A portrait column on desktops; phones in portrait are narrower than its cap, so the game fills them. */
+    #stage { position: relative; height: 100%; width: min(100vw, 50vh); width: min(100vw, 50dvh); }
+    body.touch #stage { width: min(100vw, 62vh); width: min(100vw, 62dvh); }
+    #unity-canvas { display: block; width: 100%; height: 100%; background: #4078c4; touch-action: none; }
+
+    /* Our splash: the mark and name pop in, then a loading bar takes over until the game is running. */
+    #splash { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center;
+      background: radial-gradient(circle at 50% 42%, rgba(255, 248, 214, 0.9), rgba(255, 248, 214, 0) 40%),
+                  repeating-conic-gradient(from 0deg at 50% 42%, rgba(255, 255, 255, 0.13) 0deg 7deg, rgba(255, 255, 255, 0) 7deg 20deg),
+                  linear-gradient(var(--sky-top), var(--sky-bottom));
+      font-family: "Lilita One", system-ui, sans-serif; color: #fff; user-select: none; transition: opacity 0.4s ease; }
+    #splash.done { opacity: 0; pointer-events: none; }
+    #brand { display: flex; align-items: center; justify-content: center; gap: 3%; width: 92%; scale: 0.6; opacity: 0;
+      animation: pop 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.15s forwards; transition: translate 0.5s ease; }
+    #brand img { width: 30%; aspect-ratio: 1; filter: drop-shadow(0 6px 0 rgba(10, 27, 64, 0.35)); }
+    #brand span { font-size: min(15.5vw, 7.8vh); letter-spacing: 0.02em; -webkit-text-stroke: 0.12em var(--ink); paint-order: stroke fill;
+      text-shadow: 0 0.08em 0 var(--ink); }
+    #splash.loading #brand { translate: 0 -40%; }
+    #loader { width: 64%; margin-top: 6%; opacity: 0; transform: translateY(20%); transition: opacity 0.35s ease, transform 0.35s ease; }
+    #splash.loading #loader { opacity: 1; transform: none; }
+    #track { height: min(5vw, 2.6vh); border-radius: 999px; background: rgba(10, 27, 64, 0.45); border: 0.4vh solid #fff;
+      box-shadow: 0 0.5vh 0 rgba(10, 27, 64, 0.35); overflow: hidden; }
+    #fill { height: 100%; width: 0; border-radius: 999px; background: linear-gradient(var(--fill-top), var(--fill-bottom));
+      box-shadow: inset 0 -0.4vh 0 rgba(160, 80, 0, 0.35); transition: width 0.3s ease-out; }
+    #label { margin-top: 3%; text-align: center; font-size: max(18px, min(5vw, 2.6vh)); -webkit-text-stroke: 0.14em var(--ink); paint-order: stroke fill; }
+    #label.error { font-family: system-ui, sans-serif; -webkit-text-stroke: 0; color: var(--ink); }
+    @keyframes pop { to { scale: 1; opacity: 1; } }
+    #hint { position: absolute; left: 6%; right: 6%; bottom: 5%; padding: 0.8em 1em; border-radius: 0.9em; background: rgba(10, 27, 64, 0.55);
+      font: max(13px, min(3.7vw, 1.9vh))/1.45 system-ui, sans-serif; text-align: center; }
+    #hint b:first-child { display: block; margin-bottom: 0.2em; font: 1.25em "Lilita One", system-ui, sans-serif; letter-spacing: 0.02em; }
+    #hint svg { width: 1em; height: 1.2em; vertical-align: -0.2em; fill: none; stroke: #9fd3ff; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+    #error { position: absolute; left: 4%; right: 4%; bottom: 4%; padding: 0.9em 1em; border-radius: 0.8em; background: rgba(10, 27, 64, 0.92);
+      color: #fff; font: 15px/1.4 system-ui, sans-serif; text-align: center; white-space: pre-line; z-index: 2; }
+    #error.reload { cursor: pointer; }
+    .hidden { display: none !important; }
+    #rotate { display: none; position: fixed; inset: 0; z-index: 3; flex-direction: column; align-items: center; justify-content: center; gap: 4vh;
+      background: linear-gradient(var(--sky-top), var(--sky-bottom)); color: #fff; font: 7vh "Lilita One", system-ui, sans-serif;
+      -webkit-text-stroke: 0.12em var(--ink); paint-order: stroke fill; text-align: center; }
+    #rotate div { width: 9vh; height: 15vh; border: 1.2vh solid #fff; border-radius: 2vh; box-shadow: 0 0.8vh 0 rgba(10, 27, 64, 0.35);
+      animation: upright 2.4s ease-in-out infinite; }
+    @keyframes upright { 0%, 25% { rotate: -90deg; } 55%, 100% { rotate: 0deg; } }
+    @media (orientation: landscape) and (max-height: 540px) { body.touch #rotate { display: flex; } }
+  </style>
+</head>
+<body>
+  <div id="frame">
+    <div id="stage">
+      <canvas id="unity-canvas" tabindex="-1"></canvas>
+      <div id="splash">
+        <div id="brand"><img src="TemplateData/mark.svg" alt=""><span>Tileworlds</span></div>
+        <div id="loader"><div id="track"><div id="fill"></div></div><div id="label">Loading…</div></div>
+        <div id="hint" class="hidden"><b>Play full screen</b>Tap <svg viewBox="0 0 20 24" aria-label="Share"><path d="M10 2v13M5.5 6.5 10 2l4.5 4.5M6 10H3.5v11.5h13V10H14"/></svg> Share in Safari, then <b>Add to Home Screen</b>, and open Tileworlds from there.</div>
+      </div>
+      <div id="error" class="hidden"></div>
+    </div>
+  </div>
+  <div id="rotate"><div></div>Turn your phone upright</div>
+  <script>
+    const touch = matchMedia("(pointer: coarse)").matches || (navigator.maxTouchPoints > 0 && matchMedia("(hover: none)").matches);
+    if (touch) document.body.classList.add("touch");
+    // Safari's pinch zoom ignores user-scalable=no.
+    document.addEventListener("gesturestart", (e) => e.preventDefault());
+
+    const canvas = document.querySelector("#unity-canvas");
+    const errorBox = document.querySelector("#error");
+    function showError(message, tapToReload) {
+      errorBox.textContent = message;
+      errorBox.classList.remove("hidden");
+      if (!tapToReload) return;
+      errorBox.classList.add("reload");
+      errorBox.onclick = () => location.reload();
+    }
+    // Unity can't rebuild its graphics after the browser takes the GPU away; say so rather than freeze.
+    canvas.addEventListener("webglcontextlost", () => showError("The browser stopped the game's graphics.\nTap here to reload.", true));
+
+    // A phone resumes a page rather than reloading it, so it would keep an old build. Each build rewrites this page.
+    const pageStamp = () => fetch(location.pathname, { method: "HEAD", cache: "no-store" })
+      .then((r) => r.ok ? r.headers.get("ETag") || r.headers.get("Last-Modified") : null).catch(() => null);
+    let loadedStamp = null;
+    pageStamp().then((stamp) => loadedStamp = stamp);
+    const reloadIfRebuilt = () => {
+      if (document.visibilityState !== "visible" || !loadedStamp) return;
+      pageStamp().then((stamp) => { if (stamp && stamp !== loadedStamp) location.reload(); });
+    };
+    document.addEventListener("visibilitychange", reloadIfRebuilt);
+    addEventListener("pageshow", (e) => { if (e.persisted) reloadIfRebuilt(); });
+
+    // The deploy script points buildUrl at jsDelivr (docs/WEB-BUILD.md). A file it doesn't start sending in time comes
+    // from this page's own copy.
+    const buildUrl = "Build";
+    const mirrorUrl = "Build";
+    // Game content (scenes, art, music) is fetched on demand from here; the deploy script points it at jsDelivr too.
+    const contentUrl = "Build/content";
+    window.tileworksContentUrl = new URL(contentUrl, location.href).href;
+    const cdnWaitMs = 10000;
+    if (buildUrl !== mirrorUrl) {
+      const pageFetch = window.fetch;
+      window.fetch = (resource, init) => {
+        if (typeof resource !== "string" || !resource.startsWith(buildUrl + "/")) return pageFetch(resource, init);
+        const file = resource.substring(buildUrl.length + 1);
+        const useMirror = (reason) => {
+          console.warn("jsDelivr " + reason + " for " + file + ", loading it from this site");
+          return pageFetch(mirrorUrl + "/" + file, init);
+        };
+        const abort = new AbortController();
+        const timer = setTimeout(() => abort.abort(), cdnWaitMs);
+        return pageFetch(resource, Object.assign({}, init, { signal: abort.signal })).then((response) => {
+          clearTimeout(timer);
+          return response.ok || response.status === 304 ? response : useMirror("answered " + response.status);
+        }, (error) => {
+          clearTimeout(timer);
+          return useMirror(abort.signal.aborted ? "sent nothing in " + cdnWaitMs / 1000 + " s" : "failed (" + error + ")");
+        });
+      };
+    }
+
+    // iPhones, and iPads without the fullscreen API (iPadOS Safari says it's a Mac): the home screen is the only way to
+    // play without the browser bars. The splash stays up longer there, so the hint can be read.
+    const standalone = matchMedia("(display-mode: standalone)").matches || matchMedia("(display-mode: fullscreen)").matches || navigator.standalone;
+    const canFullscreen = document.fullscreenEnabled || document.webkitFullscreenEnabled;
+    const ua = navigator.userAgent;
+    const iOS = /iPhone|iPod/.test(ua) || (/iPad|Macintosh/.test(ua) && navigator.maxTouchPoints > 1 && !canFullscreen);
+    // Safari itself: other iOS browsers say Safari too, and in-app browsers have no Share menu.
+    const safari = /Safari\//.test(ua) && !/CriOS|FxiOS|EdgiOS|OPiOS|OPT\/|GSA\/|DuckDuckGo|Ddg\//.test(ua);
+    const showHint = iOS && safari && !standalone;
+    if (showHint) document.querySelector("#hint").classList.remove("hidden");
+
+    const splash = document.querySelector("#splash");
+    const fill = document.querySelector("#fill");
+    const label = document.querySelector("#label");
+    const loaderDelay = 1200;
+    setTimeout(() => splash.classList.add("loading"), loaderDelay);
+    const shown = new Promise((resolve) => setTimeout(resolve, showHint ? 4000 : loaderDelay));
+
+    const config = {
+      dataUrl: buildUrl + "/{{{ DATA_FILENAME }}}",
+      frameworkUrl: buildUrl + "/{{{ FRAMEWORK_FILENAME }}}",
+#if USE_THREADS
+      workerUrl: buildUrl + "/{{{ WORKER_FILENAME }}}",
+#endif
+#if USE_WASM
+      codeUrl: buildUrl + "/{{{ CODE_FILENAME }}}",
+#endif
+#if SYMBOLS_FILENAME
+      symbolsUrl: buildUrl + "/{{{ SYMBOLS_FILENAME }}}",
+#endif
+      streamingAssetsUrl: "StreamingAssets",
+      companyName: {{{ JSON.stringify(COMPANY_NAME) }}},
+      productName: {{{ JSON.stringify(PRODUCT_NAME) }}},
+      productVersion: {{{ JSON.stringify(PRODUCT_VERSION) }}},
+      autoSyncPersistentDataPath: true,
+      // A commit-pinned data file never changes, so the saved copy is used without asking the server.
+      cacheControl: (url) => url !== config.dataUrl ? "no-store" : buildUrl !== mirrorUrl ? "immutable" : "must-revalidate",
+      showBanner: (message, type) => type === "error" ? showError(message) : console.warn(message),
+      // Unity's default is a blocking alert().
+      errorHandler: (error) => {
+        showError("Something went wrong: " + String(error && error.message || error) + "\nTap here to reload.", true);
+        return true;
+      },
+    };
+    // Phones have up to 3 pixels per CSS pixel; 2 is plenty and much cheaper to draw.
+    if (touch) config.devicePixelRatio = Math.min(devicePixelRatio || 1, 2);
+
+    const start = () => createUnityInstance(canvas, config, (progress) => {
+      fill.style.width = Math.round(progress * 100) + "%";
+      label.textContent = progress < 0.9 ? "Loading… " + Math.round(progress / 0.9 * 100) + "%" : "Starting…";
+    }).then((instance) => {
+      window.unityInstance = instance;
+      fill.style.width = "100%";
+      // The splash stays for its full time even on a fast load, then fades over the running game.
+      return shown.then(() => new Promise((resolve) => setTimeout(resolve, 400)));
+    }).then(() => {
+      splash.classList.add("done");
+      setTimeout(() => splash.remove(), 500);
+    }).catch((message) => {
+      splash.classList.add("loading");
+      label.classList.add("error");
+      label.textContent = message;
+    });
+
+    // The loader is a script tag, not a fetch, so its fallback is here.
+    const loadLoader = (base) => {
+      const script = document.createElement("script");
+      script.src = base + "/{{{ LOADER_FILENAME }}}";
+      script.onload = start;
+      script.onerror = () => base === mirrorUrl ? showError("Could not load the game files.", true) : loadLoader(mirrorUrl);
+      document.body.appendChild(script);
+    };
+    loadLoader(buildUrl);
+  </script>
+</body>
+</html>
