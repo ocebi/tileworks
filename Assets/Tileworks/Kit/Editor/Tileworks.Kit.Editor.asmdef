@@ -1,0 +1,13 @@
+{
+  "name": "Tileworks.Kit.Editor",
+  "rootNamespace": "Tileworks.Kit.Editor",
+  "references": [
+    "Tileworks.Kit.Core",
+    "Tileworks.Kit.Unity",
+    "Tileworks.Kit.App"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "autoReferenced": false
+}

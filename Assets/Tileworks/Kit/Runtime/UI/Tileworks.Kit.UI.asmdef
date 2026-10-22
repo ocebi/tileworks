@@ -1,0 +1,12 @@
+{
+  "name": "Tileworks.Kit.UI",
+  "rootNamespace": "Tileworks.Kit.UI",
+  "references": [
+    "Tileworks.Kit.Core",
+    "Tileworks.Kit.Unity",
+    "PrimeTween.Runtime",
+    "Unity.TextMeshPro",
+    "UnityEngine.UI"
+  ],
+  "autoReferenced": false
+}

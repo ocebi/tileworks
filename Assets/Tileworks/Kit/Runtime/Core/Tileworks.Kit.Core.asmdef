@@ -1,0 +1,11 @@
+{
+  "name": "Tileworks.Kit.Core",
+  "rootNamespace": "Tileworks.Kit.Core",
+  "references": [
+    "UniTask"
+  ],
+  "noEngineReferences": true,
+  "autoReferenced": false,
+  "overrideReferences": false,
+  "allowUnsafeCode": false
+}

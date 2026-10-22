@@ -1,0 +1,8 @@
+{
+  "name": "Tileworks.Kit.Injection",
+  "rootNamespace": "Tileworks.Kit.Injection",
+  "references": ["Tileworks.Kit.Core", "UniTask"],
+  "noEngineReferences": true,
+  "autoReferenced": false,
+  "overrideReferences": false
+}

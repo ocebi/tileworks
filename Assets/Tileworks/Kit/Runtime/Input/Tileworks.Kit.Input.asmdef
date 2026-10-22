@@ -1,0 +1,10 @@
+{
+  "name": "Tileworks.Kit.Input",
+  "rootNamespace": "Tileworks.Kit.Input",
+  "references": [
+    "Tileworks.Kit.Core",
+    "Unity.InputSystem",
+    "UnityEngine.UI"
+  ],
+  "autoReferenced": false
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Tileworks.Kit.Time",
+  "rootNamespace": "Tileworks.Kit.Time",
+  "references": ["Tileworks.Kit.Core", "Tileworks.Kit.Save", "UniTask"],
+  "autoReferenced": false
+}

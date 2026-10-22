@@ -1,0 +1,35 @@
+{
+    "name": "Tileworks.Kit.Tests",
+    "rootNamespace": "Tileworks.Kit.Tests",
+    "references": [
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "UniTask",
+        "Gilzoide.SqliteNet",
+        "Tileworks.Kit.Core",
+        "Tileworks.Kit.Injection",
+        "Tileworks.Kit.Save",
+        "Tileworks.Kit.Unity",
+        "Tileworks.Kit.Input",
+        "Tileworks.Kit.App",
+        "Tileworks.Kit.Time",
+        "Tileworks.Kit.Audio",
+        "Tileworks.Kit.UI",
+        "Unity.TextMeshPro",
+        "Tileworks.Kit.Content"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "noEngineReferences": false
+}

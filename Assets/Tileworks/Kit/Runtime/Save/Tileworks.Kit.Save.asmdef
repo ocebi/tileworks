@@ -1,0 +1,12 @@
+{
+  "name": "Tileworks.Kit.Save",
+  "rootNamespace": "Tileworks.Kit.Save",
+  "references": [
+    "Tileworks.Kit.Core",
+    "Gilzoide.SqliteNet",
+    "UniTask"
+  ],
+  "noEngineReferences": false,
+  "autoReferenced": false,
+  "overrideReferences": false
+}

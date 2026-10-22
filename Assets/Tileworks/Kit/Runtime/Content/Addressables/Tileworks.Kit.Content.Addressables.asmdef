@@ -1,0 +1,15 @@
+{
+  "name": "Tileworks.Kit.Content.Addressables",
+  "rootNamespace": "Tileworks.Kit.Content.Addressables",
+  "references": [
+    "Tileworks.Kit.Content",
+    "Tileworks.Kit.Core",
+    "Tileworks.Kit.Unity",
+    "UniTask",
+    "UniTask.Addressables",
+    "Unity.Addressables",
+    "Unity.ResourceManager",
+    "UnityEngine.UI"
+  ],
+  "autoReferenced": false
+}

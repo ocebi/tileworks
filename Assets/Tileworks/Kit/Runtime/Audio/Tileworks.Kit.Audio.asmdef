@@ -1,0 +1,10 @@
+{
+  "name": "Tileworks.Kit.Audio",
+  "rootNamespace": "Tileworks.Kit.Audio",
+  "references": [
+    "Tileworks.Kit.Core",
+    "Tileworks.Kit.Unity",
+    "UniTask"
+  ],
+  "autoReferenced": false
+}

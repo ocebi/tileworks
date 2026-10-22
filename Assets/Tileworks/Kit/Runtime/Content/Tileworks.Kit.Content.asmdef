@@ -1,0 +1,8 @@
+{
+  "name": "Tileworks.Kit.Content",
+  "rootNamespace": "Tileworks.Kit.Content",
+  "references": [
+    "UniTask"
+  ],
+  "autoReferenced": false
+}

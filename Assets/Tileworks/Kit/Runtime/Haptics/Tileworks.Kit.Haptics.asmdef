@@ -1,0 +1,6 @@
+{
+  "name": "Tileworks.Kit.Haptics",
+  "rootNamespace": "Tileworks.Kit.Haptics",
+  "references": ["Tileworks.Kit.Core"],
+  "autoReferenced": false
+}

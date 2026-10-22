@@ -1,0 +1,9 @@
+{
+  "name": "Tileworks.Kit.Unity",
+  "rootNamespace": "Tileworks.Kit.Unity",
+  "references": [
+    "Tileworks.Kit.Core",
+    "UniTask"
+  ],
+  "autoReferenced": false
+}
