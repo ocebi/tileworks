@@ -1,0 +1,20 @@
+{
+  "name": "Tileworlds.Project.Editor",
+  "rootNamespace": "Tileworlds.Project.Editor",
+  "references": [
+    "Unity.RenderPipelines.Universal.Runtime",
+    "Unity.RenderPipelines.Universal.2D.Runtime",
+    "Unity.RenderPipelines.Core.Runtime",
+    "Unity.TextMeshPro",
+    "Tileworks.Kit.Content",
+    "Tileworks.Kit.Content.Addressables",
+    "Unity.Addressables",
+    "Unity.Addressables.Editor",
+    "Unity.ResourceManager",
+    "UnityEngine.UI"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "autoReferenced": false
+}
