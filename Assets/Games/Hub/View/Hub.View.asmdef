@@ -1,0 +1,15 @@
+{
+  "name": "Hub.View",
+  "rootNamespace": "Hub.View",
+  "references": [
+    "Tileworks.Kit.App",
+    "Tileworks.Kit.Unity",
+    "Tileworks.Kit.UI",
+    "Hub.Controller",
+    "PrimeTween.Runtime",
+    "UniTask",
+    "Unity.TextMeshPro",
+    "UnityEngine.UI"
+  ],
+  "autoReferenced": false
+}

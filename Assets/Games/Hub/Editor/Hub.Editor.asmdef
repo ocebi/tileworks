@@ -1,0 +1,21 @@
+{
+  "name": "Hub.Editor",
+  "rootNamespace": "Hub.Editor",
+  "references": [
+    "Tileworks.Kit.Core",
+    "Tileworks.Kit.App",
+    "Tileworks.Kit.Unity",
+    "Tileworks.Kit.UI",
+    "Tileworlds.Games.Editor",
+    "Hub.View",
+    "Hub.Installer",
+    "Unity.TextMeshPro",
+    "UnityEngine.UI",
+    "Unity.InputSystem",
+    "Unity.RenderPipelines.Universal.Runtime"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "autoReferenced": false
+}

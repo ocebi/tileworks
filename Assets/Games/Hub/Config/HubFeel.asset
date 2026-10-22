@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab0512d6ec9ee465fbcfe4837db3fc06, type: 3}
+  m_Name: HubFeel
+  m_EditorClassIdentifier: Hub.View::Hub.View.HubFeel
+  _crossfade: 0.35
+  _reducedCrossfade: 0.15
+  _selectedScale: 1.08
+  _selectedLift: 20
+  _selectDuration: 0.3
+  _selectEase: 27
+  _otherScale: 0.92
+  _otherDuration: 0.15
+  _glowLow: 0.75
+  _glowPeriod: 0.7
+  _leaveDuration: 0.2

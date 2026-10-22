@@ -1,0 +1,12 @@
+{
+  "name": "Hub.Controller",
+  "rootNamespace": "Hub.Controller",
+  "references": [
+    "Tileworks.Kit.Core",
+    "Tileworks.Kit.App",
+    "Tileworks.Kit.Audio",
+    "Tileworks.Kit.Save",
+    "UniTask"
+  ],
+  "autoReferenced": false
+}

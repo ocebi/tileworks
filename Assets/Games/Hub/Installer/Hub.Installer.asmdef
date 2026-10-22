@@ -1,0 +1,15 @@
+{
+  "name": "Hub.Installer",
+  "rootNamespace": "Hub.Installer",
+  "references": [
+    "Tileworks.Kit.Core",
+    "Tileworks.Kit.Injection",
+    "Tileworks.Kit.App",
+    "Tileworks.Kit.Unity",
+    "Hub.Controller",
+    "Hub.View",
+    "Tileworks.Kit.Content",
+    "Tileworks.Kit.Content.Addressables"
+  ],
+  "autoReferenced": false
+}
