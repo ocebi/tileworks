@@ -1,0 +1,28 @@
+{
+  "name": "TileMatch.PlayModeTests",
+  "rootNamespace": "TileMatch.PlayModeTests",
+  "references": [
+    "UnityEngine.TestRunner",
+    "UnityEditor.TestRunner",
+    "Unity.InputSystem",
+    "Unity.InputSystem.TestFramework",
+    "Tileworks.Kit.Core",
+    "Tileworks.Kit.App",
+    "Tileworks.Kit.Injection",
+    "Tileworks.Tiles.Model",
+    "TileMatch.Model",
+    "Tileworks.Meta.Api",
+    "TileMatch.Api",
+    "TileMatch.View",
+    "UnityEngine.UI"
+  ],
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "nunit.framework.dll",
+    "Newtonsoft.Json.dll"
+  ],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS"
+  ]
+}

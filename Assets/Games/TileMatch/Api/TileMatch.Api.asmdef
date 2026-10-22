@@ -1,0 +1,7 @@
+{
+  "name": "TileMatch.Api",
+  "rootNamespace": "TileMatch.Api",
+  "references": ["Tileworks.Kit.Core"],
+  "noEngineReferences": true,
+  "autoReferenced": false
+}

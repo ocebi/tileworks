@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "id": "tm_0001",
+  "game": "tilematch",
+  "payloadVersion": 1,
+  "contentHash": "c19a884548c0922f",
+  "meta": {
+    "difficulty": "easy",
+    "tags": [
+      "layout:L001"
+    ],
+    "metrics": {
+      "deadEndRatio": 0.0,
+      "minPeak": 2.0,
+      "pCasual": 1.0,
+      "pGreedy": 1.0,
+      "pRandom": 1.0,
+      "visibleKinds": 3.0
+    }
+  },
+  "payload": {
+    "tray": 7,
+    "timeLimit": 0,
+    "tiles": [
+      [0, 0, 0, 2],
+      [2, 0, 0, 0],
+      [4, 0, 0, 2],
+      [0, 2, 0, 1],
+      [2, 2, 0, 0],
+      [4, 2, 0, 1],
+      [0, 4, 0, 0],
+      [2, 4, 0, 2],
+      [4, 4, 0, 1]
+    ]
+  }
+}

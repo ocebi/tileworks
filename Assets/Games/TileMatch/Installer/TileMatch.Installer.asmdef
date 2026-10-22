@@ -1,0 +1,32 @@
+{
+  "name": "TileMatch.Installer",
+  "rootNamespace": "TileMatch.Installer",
+  "references": [
+    "Tileworks.Kit.Core",
+    "Tileworks.Kit.Injection",
+    "Tileworks.Kit.App",
+    "Tileworks.Kit.Save",
+    "Tileworks.Kit.Unity",
+    "Tileworks.Kit.Input",
+    "Tileworks.Tiles.Model",
+    "Tileworks.Tiles.Levels",
+    "Tileworks.Tiles.View",
+    "Tileworks.Tiles.Installer",
+    "TileMatch.Api",
+    "TileMatch.Model",
+    "TileMatch.Service",
+    "TileMatch.Controller",
+    "TileMatch.View",
+    "UniTask",
+    "Tileworks.Meta.Api",
+    "Tileworks.Meta.Config",
+    "Tileworks.Meta.Installer",
+    "Tileworks.Kit.Content",
+    "Tileworks.Kit.Content.Addressables"
+  ],
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "Newtonsoft.Json.dll"
+  ],
+  "autoReferenced": false
+}

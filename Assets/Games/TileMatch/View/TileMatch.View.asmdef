@@ -1,0 +1,22 @@
+{
+  "name": "TileMatch.View",
+  "rootNamespace": "TileMatch.View",
+  "references": [
+    "Tileworks.Kit.Core",
+    "Tileworks.Kit.App",
+    "Tileworks.Kit.Audio",
+    "Tileworks.Kit.Unity",
+    "Tileworks.Kit.UI",
+    "Tileworks.Kit.Haptics",
+    "Tileworks.Tiles.Model",
+    "Tileworks.Tiles.View",
+    "TileMatch.Api",
+    "TileMatch.Model",
+    "TileMatch.Controller",
+    "PrimeTween.Runtime",
+    "Unity.TextMeshPro",
+    "UnityEngine.UI",
+    "UniTask"
+  ],
+  "autoReferenced": false
+}

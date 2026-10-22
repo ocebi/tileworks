@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa9f7f845be86494aa6b10b129f71ad8, type: 3}
+  m_Name: TileSounds
+  m_EditorClassIdentifier: TileMatch.View::TileMatch.View.TileSounds
+  _cues:
+  - _name: Tap
+    _id: 0
+    _clips:
+    - {fileID: 8300000, guid: 6a45f103211104364bf8addc0c771d5e, type: 3}
+    _volume: 0.6
+    _pitchJitter: 0.05
+    _maxVoices: 4
+    _minGap: 0.04
+    _priority: 0
+  - _name: Land
+    _id: 1
+    _clips:
+    - {fileID: 8300000, guid: 489ef5cbb453846b5bf12489f6d18f7e, type: 3}
+    _volume: 0.7
+    _pitchJitter: 0.05
+    _maxVoices: 4
+    _minGap: 0.04
+    _priority: 0
+  - _name: Triple
+    _id: 2
+    _clips:
+    - {fileID: 8300000, guid: 91efb1f4c9639491c9eefe6d9236014c, type: 3}
+    _volume: 0.9
+    _pitchJitter: 0.05
+    _maxVoices: 4
+    _minGap: 0.04
+    _priority: 0
+  - _name: Nope
+    _id: 3
+    _clips:
+    - {fileID: 8300000, guid: 8472fad941a9545ba949a457fb32712b, type: 3}
+    _volume: 0.6
+    _pitchJitter: 0.05
+    _maxVoices: 4
+    _minGap: 0.04
+    _priority: 0
+  - _name: Crack
+    _id: 5
+    _clips:
+    - {fileID: 8300000, guid: a34e1f434bcc54880b17e44dffa94a38, type: 3}
+    _volume: 0.8
+    _pitchJitter: 0.05
+    _maxVoices: 4
+    _minGap: 0.04
+    _priority: 0
+  - _name: Spawn
+    _id: 6
+    _clips:
+    - {fileID: 8300000, guid: 85a08a8a9aac44040a34f36a282c28af, type: 3}
+    _volume: 0.7
+    _pitchJitter: 0.05
+    _maxVoices: 4
+    _minGap: 0.04
+    _priority: 0
+  - _name: Booster
+    _id: 7
+    _clips:
+    - {fileID: 8300000, guid: f5310b526302f4fcf818c56662f27032, type: 3}
+    _volume: 0.8
+    _pitchJitter: 0.05
+    _maxVoices: 4
+    _minGap: 0.04
+    _priority: 0
+  - _name: Win
+    _id: 8
+    _clips:
+    - {fileID: 8300000, guid: 175dd175e9fd64a0ea3eead8a03aa93a, type: 3}
+    _volume: 0.9
+    _pitchJitter: 0.05
+    _maxVoices: 4
+    _minGap: 0.04
+    _priority: 0
+  - _name: Lose
+    _id: 9
+    _clips:
+    - {fileID: 8300000, guid: b2b2fa387e7a2445492e00e45512fe79, type: 3}
+    _volume: 0.8
+    _pitchJitter: 0.05
+    _maxVoices: 4
+    _minGap: 0.04
+    _priority: 0
+  - _name: Button
+    _id: 10
+    _clips:
+    - {fileID: 8300000, guid: 9d92420588d0a49d2981e31bbd08048f, type: 3}
+    _volume: 0.6
+    _pitchJitter: 0.05
+    _maxVoices: 4
+    _minGap: 0.04
+    _priority: 0

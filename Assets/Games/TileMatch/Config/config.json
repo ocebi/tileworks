@@ -1,0 +1,6 @@
+{
+  "lives": { "Max": 5, "RegenMinutes": 30 },
+  "continue": { "CoinPrices": [100, 200, 400], "ExtraSlots": 1, "ReturnCount": 3, "MaxContinues": 2 },
+  "starter": { "BoostersEach": 3 },
+  "boosters": { "UnlockLevels": [3, 5, 7, 9] }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "TileMatch.Tests",
+  "rootNamespace": "TileMatch.Tests",
+  "references": [
+    "UnityEngine.TestRunner",
+    "UnityEditor.TestRunner",
+    "Tileworks.Kit.Core",
+    "Tileworks.Tiles.Model",
+    "Tileworks.Tiles.Search",
+    "Tileworks.Tiles.Generation",
+    "TileMatch.Model",
+    "TileMatch.Generation",
+    "Tileworks.Tiles.Levels",
+    "Tileworks.Kit.Injection",
+    "Tileworks.Kit.App",
+    "Tileworks.Kit.Unity",
+    "Tileworks.Kit.Input",
+    "Tileworks.Kit.Save",
+    "Tileworks.Tiles.View",
+    "TileMatch.Api",
+    "TileMatch.Service",
+    "TileMatch.Controller",
+    "TileMatch.View",
+    "TileMatch.Installer",
+    "UniTask",
+    "Tileworks.Meta.Api",
+    "Tileworks.Meta.Config",
+    "Tileworks.Meta.Installer",
+    "Tileworks.Kit.Content"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "nunit.framework.dll",
+    "Newtonsoft.Json.dll"
+  ],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS"
+  ]
+}

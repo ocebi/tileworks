@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67a0a4659f5e149e291504b6ba3c3595, type: 3}
+  m_Name: TileSkin
+  m_EditorClassIdentifier: TileMatch.View::TileMatch.View.TileSkin
+  _icons:
+  - {fileID: 21300000, guid: fd4afdab10fd748fea8cfef0a7b2699b, type: 3}
+  - {fileID: 21300000, guid: 1ac3ce2a50b944b3288f284e0309c645, type: 3}
+  - {fileID: 21300000, guid: c9ca9ec1c4c8545128d58156e20b4050, type: 3}
+  - {fileID: 21300000, guid: 898590428c1554842ab339f347c4c831, type: 3}
+  - {fileID: 21300000, guid: 76afd482ae40d469882567721c52747f, type: 3}
+  - {fileID: 21300000, guid: e3611938d3b104157bc41a497af14aef, type: 3}
+  - {fileID: 21300000, guid: 42c05385268d943c7b4c87be3ce55e03, type: 3}
+  - {fileID: 21300000, guid: f05323ac4ce094040a15d7981bd3e0a6, type: 3}
+  - {fileID: 21300000, guid: c533e906f1b5b4e8da4cf9b64e2de834, type: 3}
+  - {fileID: 21300000, guid: e72267748d4ba4ab7bd99464a1dfb8b6, type: 3}
+  - {fileID: 21300000, guid: 0fcb49877deeb4f138e0cc048990de37, type: 3}
+  - {fileID: 21300000, guid: 01269b98528244ae898d631dc8d26ca7, type: 3}
+  - {fileID: 21300000, guid: 29f643c142d2d4f9791308fcae22fd3a, type: 3}
+  - {fileID: 21300000, guid: bee4bac7901de4692aa3bbdc2ed4da64, type: 3}
+  - {fileID: 21300000, guid: e44bc2c78734d4185adee1aec24188eb, type: 3}
+  - {fileID: 21300000, guid: 5e97ef55445774f04b79a09a31e4b406, type: 3}
+  - {fileID: 21300000, guid: cc1651930e2b84c53801098f863681b2, type: 3}
+  - {fileID: 21300000, guid: c75c843cd98a94e76bfc5959de1eb1b2, type: 3}
+  - {fileID: 21300000, guid: d2e6bf69a5ca849fbaa0aeea9b4d4677, type: 3}
+  - {fileID: 21300000, guid: 16dcbdd1535dc45388fc0f6beb6b4763, type: 3}
+  - {fileID: 21300000, guid: 8a43146bbdc0d4c19a14d38c738dc04e, type: 3}
+  - {fileID: 21300000, guid: a65cfef105e6d45dc8a414ee5ef3921e, type: 3}
+  - {fileID: 21300000, guid: 2f1e890fed42e46d5b05da359c4a93e2, type: 3}
+  - {fileID: 21300000, guid: 5966bdebaa02c4af7ae9b473879a715c, type: 3}
+  - {fileID: 21300000, guid: 725fc87d1305e453d8714f5fed2d89af, type: 3}
+  - {fileID: 21300000, guid: b14a8ad0abf6d4afd930e830414d1c4c, type: 3}
+  - {fileID: 21300000, guid: c6e79a00296c74048ae663f7f3f007c9, type: 3}
+  - {fileID: 21300000, guid: e55d9c85135cd4524b7af7abf2ee646f, type: 3}
+  - {fileID: 21300000, guid: 33784d8885cf146cebb74b83fe211ced, type: 3}
+  - {fileID: 21300000, guid: b60429ac0c0574a998c7f717283452fd, type: 3}
+  _face: {fileID: 21300000, guid: bbfa17d6de15a4bf78232562ffcb43d4, type: 3}
+  _shadow: {fileID: 21300000, guid: f8c84cd6e09604e56b2fed96ca4cfdbe, type: 3}
+  _hiddenBack: {fileID: 21300000, guid: e2811b80150e8478ca39058564869aad, type: 3}
+  _ice:
+  - {fileID: 21300000, guid: 552a4e2b27973461498ef7ff521410c1, type: 3}
+  - {fileID: 21300000, guid: ef6d905a0b28645289fa88e511494522, type: 3}
+  _link: {fileID: 21300000, guid: 0305730a669a34dcb9e14f26ddb6d1cf, type: 3}
+  _coveredTint: {r: 0.55, g: 0.58, b: 0.66, a: 1}
+  _iconScale: 0.62

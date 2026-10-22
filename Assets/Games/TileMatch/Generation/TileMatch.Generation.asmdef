@@ -1,0 +1,7 @@
+{
+  "name": "TileMatch.Generation",
+  "rootNamespace": "TileMatch.Generation",
+  "references": ["Tileworks.Kit.Core", "Tileworks.Tiles.Model", "Tileworks.Tiles.Search", "TileMatch.Model", "Tileworks.Tiles.Generation"],
+  "noEngineReferences": true,
+  "autoReferenced": false
+}
