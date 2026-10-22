@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6edbe2315df0a48c0b51917870781b9e, type: 3}
+  m_Name: BlastFeel
+  m_EditorClassIdentifier: Blast.View::Blast.View.BlastFeelConfig
+  _topReserved: 0.2
+  _bottomReserved: 0.17
+  _clearSquash: 1.18
+  _clearDuration: 0.22
+  _clearStagger: 0.035
+  _mergeDuration: 0.2
+  _mergeStagger: 0.04
+  _specialAppear: 0.28
+  _fallBase: 0.08
+  _fallPerRow: 0.12
+  _fallColumnStagger: 0.03
+  _landSquash: {x: 1.14, y: 0.8}
+  _landDuration: 0.18
+  _rocketFlight: 0.42
+  _rocketPopBase: 0.08
+  _rocketPopStep: 0.045
+  _bombWobbleDegrees: 14
+  _bombWobble: 0.14
+  _ringScale: {x: 0.2, y: 2.6}
+  _ringDuration: 0.38
+  _bombPopBase: 0.14
+  _bombPopStep: 0.055
+  _discoRay: 0.18
+  _discoRayStep: 0.06
+  _discoPopAfter: 0.2
+  _refuseDuration: 0.2
+  _resultDelay: 0.6

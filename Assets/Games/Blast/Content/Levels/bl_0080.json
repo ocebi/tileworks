@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "id": "bl_0080",
+  "game": "blast",
+  "payloadVersion": 1,
+  "contentHash": "c6fe8d248a0dd0c9",
+  "meta": {
+    "difficulty": "superHard",
+    "tags": [
+      "box",
+      "balloon",
+      "duck",
+      "shape:topcorners"
+    ],
+    "metrics": {
+      "casualWinRate": 0.0,
+      "nearMisses": 0.423,
+      "winRate": 0.26
+    }
+  },
+  "payload": {
+    "moves": 40,
+    "colours": 5,
+    "goals": [
+      {
+        "kind": "box",
+        "count": 13
+      },
+      {
+        "kind": "balloon",
+        "count": 17
+      },
+      {
+        "kind": "duck",
+        "count": 2
+      }
+    ],
+    "rows": [
+      "#.......#",
+      "d.......d",
+      "....o....",
+      "....o....",
+      "...ooo...",
+      "..oo.oo..",
+      "..oo.oo..",
+      "..ooXoo..",
+      "..XXXXX..",
+      ".XXXXXXX."
+    ]
+  }
+}

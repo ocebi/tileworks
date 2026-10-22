@@ -1,0 +1,7 @@
+{
+  "name": "Blast.Generation",
+  "rootNamespace": "Blast.Generation",
+  "references": ["Tileworks.Kit.Core", "Tileworks.Tiles.Model", "Tileworks.Tiles.Search", "Blast.Model", "Tileworks.Tiles.Generation"],
+  "noEngineReferences": true,
+  "autoReferenced": false
+}

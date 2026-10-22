@@ -1,0 +1,706 @@
+{
+  "game": "blast",
+  "revision": 1,
+  "levels": [
+    {
+      "id": "bl_0001",
+      "hash": "b0666598f2f98423",
+      "payloadVersion": 1,
+      "reward": 20,
+      "label": null
+    },
+    {
+      "id": "bl_0002",
+      "hash": "1ade6dd6ae8852cf",
+      "payloadVersion": 1,
+      "reward": 20,
+      "label": null
+    },
+    {
+      "id": "bl_0003",
+      "hash": "78d5b27d77f857d0",
+      "payloadVersion": 1,
+      "reward": 20,
+      "label": null
+    },
+    {
+      "id": "bl_0004",
+      "hash": "45e3b4926d568654",
+      "payloadVersion": 1,
+      "reward": 20,
+      "label": null
+    },
+    {
+      "id": "bl_0005",
+      "hash": "da15b77a37eccc35",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0006",
+      "hash": "904f2e7d43312f43",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0007",
+      "hash": "b918ae7277778321",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0008",
+      "hash": "b61938c53ee94385",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0009",
+      "hash": "b176196919eff5e3",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0010",
+      "hash": "d54c552777b498c0",
+      "payloadVersion": 1,
+      "reward": 50,
+      "label": "hard"
+    },
+    {
+      "id": "bl_0011",
+      "hash": "92207a3bddb3e2fd",
+      "payloadVersion": 1,
+      "reward": 20,
+      "label": null
+    },
+    {
+      "id": "bl_0012",
+      "hash": "5304966b0849d50b",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0013",
+      "hash": "ab61a87c1779cdcf",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0014",
+      "hash": "4fb176589d578a9f",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0015",
+      "hash": "ba80a7a454cc41fb",
+      "payloadVersion": 1,
+      "reward": 50,
+      "label": "hard"
+    },
+    {
+      "id": "bl_0016",
+      "hash": "99cf9b64fac8361b",
+      "payloadVersion": 1,
+      "reward": 20,
+      "label": null
+    },
+    {
+      "id": "bl_0017",
+      "hash": "cb2801c71a8299e9",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0018",
+      "hash": "7ebedd4191f66544",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0019",
+      "hash": "a7f51d17b4221579",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0020",
+      "hash": "91de5a5e0d976e05",
+      "payloadVersion": 1,
+      "reward": 50,
+      "label": "hard"
+    },
+    {
+      "id": "bl_0021",
+      "hash": "017402c1cd9ced00",
+      "payloadVersion": 1,
+      "reward": 20,
+      "label": null
+    },
+    {
+      "id": "bl_0022",
+      "hash": "5023f8465e341c9b",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0023",
+      "hash": "4cee95344012d45d",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0024",
+      "hash": "a7a86a1bd247e0ab",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0025",
+      "hash": "cf28fd26211787d7",
+      "payloadVersion": 1,
+      "reward": 50,
+      "label": "hard"
+    },
+    {
+      "id": "bl_0026",
+      "hash": "bb7317ca45547a6f",
+      "payloadVersion": 1,
+      "reward": 20,
+      "label": null
+    },
+    {
+      "id": "bl_0027",
+      "hash": "3a6dd228898fef6f",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0028",
+      "hash": "292f12fee31cdbdc",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0029",
+      "hash": "f484302e37e51194",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0030",
+      "hash": "006e01205c9ccee8",
+      "payloadVersion": 1,
+      "reward": 50,
+      "label": "hard"
+    },
+    {
+      "id": "bl_0031",
+      "hash": "477d526ae116e824",
+      "payloadVersion": 1,
+      "reward": 20,
+      "label": null
+    },
+    {
+      "id": "bl_0032",
+      "hash": "0cbde2531be66fd8",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0033",
+      "hash": "02e9ab139d32d904",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0034",
+      "hash": "cab1236aa6b66211",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0035",
+      "hash": "5c54976115ecc321",
+      "payloadVersion": 1,
+      "reward": 50,
+      "label": "hard"
+    },
+    {
+      "id": "bl_0036",
+      "hash": "678b06f305b6a466",
+      "payloadVersion": 1,
+      "reward": 20,
+      "label": null
+    },
+    {
+      "id": "bl_0037",
+      "hash": "f14b4337682014b3",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0038",
+      "hash": "9f2330e4e08727f0",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0039",
+      "hash": "4b12b5274a7b9da3",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0040",
+      "hash": "f1b4945f2169468d",
+      "payloadVersion": 1,
+      "reward": 80,
+      "label": "superHard"
+    },
+    {
+      "id": "bl_0041",
+      "hash": "374a09f7377f04f3",
+      "payloadVersion": 1,
+      "reward": 20,
+      "label": null
+    },
+    {
+      "id": "bl_0042",
+      "hash": "c97dc8e4ac838c42",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0043",
+      "hash": "17321b880c5077e2",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0044",
+      "hash": "87b37d6429f434f5",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0045",
+      "hash": "9b5b5ebe7948127e",
+      "payloadVersion": 1,
+      "reward": 50,
+      "label": "hard"
+    },
+    {
+      "id": "bl_0046",
+      "hash": "34857ef970f8b74b",
+      "payloadVersion": 1,
+      "reward": 20,
+      "label": null
+    },
+    {
+      "id": "bl_0047",
+      "hash": "1da04ebbc25cdaa7",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0048",
+      "hash": "4f5838512c187fd3",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0049",
+      "hash": "f398a33129e7b82b",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0050",
+      "hash": "34bcde458b39c72a",
+      "payloadVersion": 1,
+      "reward": 50,
+      "label": "hard"
+    },
+    {
+      "id": "bl_0051",
+      "hash": "f9c44ab2bfccae21",
+      "payloadVersion": 1,
+      "reward": 20,
+      "label": null
+    },
+    {
+      "id": "bl_0052",
+      "hash": "f545ae0b319a6193",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0053",
+      "hash": "d7020fff7fb9f3fc",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0054",
+      "hash": "343fdcf08d10fe34",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0055",
+      "hash": "90a0719b6b180d39",
+      "payloadVersion": 1,
+      "reward": 50,
+      "label": "hard"
+    },
+    {
+      "id": "bl_0056",
+      "hash": "d68ce8f634b68312",
+      "payloadVersion": 1,
+      "reward": 20,
+      "label": null
+    },
+    {
+      "id": "bl_0057",
+      "hash": "47f2c35e7093ae55",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0058",
+      "hash": "aa6c00f0f0e7230d",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0059",
+      "hash": "c39fd585b3420cf3",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0060",
+      "hash": "dfc87a3bcb51a279",
+      "payloadVersion": 1,
+      "reward": 80,
+      "label": "superHard"
+    },
+    {
+      "id": "bl_0061",
+      "hash": "ae5901aa92d1b235",
+      "payloadVersion": 1,
+      "reward": 20,
+      "label": null
+    },
+    {
+      "id": "bl_0062",
+      "hash": "f6ba09cbb6129539",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0063",
+      "hash": "176fa9e3c21c0c7b",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0064",
+      "hash": "028a1f1f839129f2",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0065",
+      "hash": "135de4300aad9eb6",
+      "payloadVersion": 1,
+      "reward": 50,
+      "label": "hard"
+    },
+    {
+      "id": "bl_0066",
+      "hash": "ba8fe34dc7c81a50",
+      "payloadVersion": 1,
+      "reward": 20,
+      "label": null
+    },
+    {
+      "id": "bl_0067",
+      "hash": "1a517e4ff5576527",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0068",
+      "hash": "a95872d209574e15",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0069",
+      "hash": "13be49bc3e1d076f",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0070",
+      "hash": "f69c5ffafe7059ca",
+      "payloadVersion": 1,
+      "reward": 50,
+      "label": "hard"
+    },
+    {
+      "id": "bl_0071",
+      "hash": "df18b5efb2d25985",
+      "payloadVersion": 1,
+      "reward": 20,
+      "label": null
+    },
+    {
+      "id": "bl_0072",
+      "hash": "60a01aacb943abcb",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0073",
+      "hash": "2c2d3d4098a1c439",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0074",
+      "hash": "5fbdd9ab527d04c0",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0075",
+      "hash": "7608383013713bba",
+      "payloadVersion": 1,
+      "reward": 50,
+      "label": "hard"
+    },
+    {
+      "id": "bl_0076",
+      "hash": "6e230460480f631d",
+      "payloadVersion": 1,
+      "reward": 20,
+      "label": null
+    },
+    {
+      "id": "bl_0077",
+      "hash": "c379d6e2d11b9993",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0078",
+      "hash": "7ec2675356164314",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0079",
+      "hash": "78ef12ba081e9242",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0080",
+      "hash": "f05912f0b2167b46",
+      "payloadVersion": 1,
+      "reward": 80,
+      "label": "superHard"
+    },
+    {
+      "id": "bl_0081",
+      "hash": "ebf8bc2da4036cbc",
+      "payloadVersion": 1,
+      "reward": 20,
+      "label": null
+    },
+    {
+      "id": "bl_0082",
+      "hash": "3016385822a6005f",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0083",
+      "hash": "26754d67814696bf",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0084",
+      "hash": "bb3eb868ccd50356",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0085",
+      "hash": "b32638fa50f4e78b",
+      "payloadVersion": 1,
+      "reward": 50,
+      "label": "hard"
+    },
+    {
+      "id": "bl_0086",
+      "hash": "c1e10e3c24d05492",
+      "payloadVersion": 1,
+      "reward": 20,
+      "label": null
+    },
+    {
+      "id": "bl_0087",
+      "hash": "6ad90305207d5f33",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0088",
+      "hash": "57b6ec85d22070aa",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0089",
+      "hash": "3bdd5c09803f2941",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0090",
+      "hash": "6dc8a19f78598c53",
+      "payloadVersion": 1,
+      "reward": 50,
+      "label": "hard"
+    },
+    {
+      "id": "bl_0091",
+      "hash": "895c96dd3f314d36",
+      "payloadVersion": 1,
+      "reward": 20,
+      "label": null
+    },
+    {
+      "id": "bl_0092",
+      "hash": "3abb834eb3e83b17",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0093",
+      "hash": "19e06a0547ddd700",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0094",
+      "hash": "9e4ac427bb376306",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0095",
+      "hash": "5587485b14532819",
+      "payloadVersion": 1,
+      "reward": 50,
+      "label": "hard"
+    },
+    {
+      "id": "bl_0096",
+      "hash": "12c828607b1317ca",
+      "payloadVersion": 1,
+      "reward": 20,
+      "label": null
+    },
+    {
+      "id": "bl_0097",
+      "hash": "8d074a25dc354030",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0098",
+      "hash": "fc12c7c1c4933739",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0099",
+      "hash": "f9b106e6d8efe72e",
+      "payloadVersion": 1,
+      "reward": 30,
+      "label": null
+    },
+    {
+      "id": "bl_0100",
+      "hash": "4624f79ace689e20",
+      "payloadVersion": 1,
+      "reward": 80,
+      "label": "superHard"
+    }
+  ]
+}

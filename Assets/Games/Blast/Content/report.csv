@@ -1,0 +1,101 @@
+id,size,shape,pens,movable,colours,moves,goals,boxes,balloons,gifts,target,band,hit,attempts,skilledWinRate,casualWinRate,movesLeftOnWin,goalLeftOnLoss,nearMisses,shufflesPerGame
+bl_0001,7x8,Full,,1.00,3,22,44× colour 1,,,,1 easy 0.99,easy,True,4,1.00,1.00,0.57,0.00,0.00,0.00
+bl_0002,7x9,TopCorners,Intro,0.87,3,20,44× colour 1 5× Box,,,,2 easy 0.98,easy,True,4,1.00,1.00,0.56,0.00,0.00,0.00
+bl_0003,8x8,Full,,0.88,4,30,34× colour 1 6× Box,Rows,,rockets,3 easy 0.98,easy,True,8,1.00,0.98,0.51,0.00,0.00,0.00
+bl_0004,8x9,Castle,Corners,0.68,4,32,34× colour 1 9× Box,,,,4 easy 0.97,easy,True,8,1.00,1.00,0.56,0.00,0.00,0.00
+bl_0005,9x9,TopCorners,,0.77,4,17,18× Balloon,,Band,,5 normal 0.88,normal,True,9,0.89,0.24,0.33,0.11,0.27,0.00
+bl_0006,7x9,Castle,,0.90,4,22,30× colour 1 6× Balloon,,Chevron,bomb,6 easy 0.97,easy,True,1,0.99,0.81,0.47,0.06,1.00,0.00
+bl_0007,8x9,Full,,0.97,4,20,42× colour 1 2× Duck,,,,7 normal 0.85,normal,True,6,0.79,0.39,0.31,0.13,0.60,0.00
+bl_0008,9x9,Octagon,,0.72,4,24,16× Box,Frame,,disco,8 normal 0.83,normal,True,1,0.84,0.33,0.29,0.10,0.53,0.00
+bl_0009,8x9,Hourglass,pockets,0.75,4,17,14× Balloon 2× Duck,,Diamond,,9 normal 0.80,normal,True,6,0.77,0.16,0.34,0.12,0.45,0.00
+bl_0010,9x10,Plus,,0.88,5,40,45× colour 1 9× Box,Rows,,,10 hard 0.48,hard,True,7,0.46,0.09,0.24,0.09,0.63,0.00
+bl_0011,9x9,Bevel,,0.83,4,16,12× Box,Chevron,,rockets,11 easy 0.97,easy,True,8,0.96,0.29,0.41,0.08,1.00,0.00
+bl_0012,9x9,Arch,,0.81,4,17,15× Box,Checker,,,12 normal 0.88,normal,True,27,0.86,0.16,0.31,0.18,0.08,0.00
+bl_0013,9x9,Castle,,0.74,4,15,20× Balloon,,Band,,13 normal 0.82,normal,True,8,0.89,0.15,0.27,0.10,0.73,0.00
+bl_0014,9x10,Corners,,0.73,4,22,16× Box 7× Balloon,Checker,Mound,,14 normal 0.77,normal,True,2,0.83,0.23,0.35,0.13,0.50,0.00
+bl_0015,9x10,Keyhole,pockets,0.79,5,40,10× Box 4× Balloon 2× Duck,Diamond,Corners,,15 hard 0.45,hard,True,10,0.43,0.19,0.25,0.17,0.36,0.00
+bl_0016,9x9,Castle,,0.81,5,25,15× Balloon,,Chevron,disco,16 easy 0.97,easy,True,17,0.94,0.54,0.49,0.18,0.33,0.00
+bl_0017,9x9,Full,,0.81,4,21,15× Box,Frame,,bomb,17 normal 0.85,normal,True,29,0.80,0.21,0.33,0.15,0.26,0.00
+bl_0018,8x9,Bevel,Sides,0.70,4,18,28× colour 1 12× Box,Mound,,,18 normal 0.80,normal,True,3,0.82,0.15,0.30,0.08,0.76,0.00
+bl_0019,8x9,Funnel,,0.79,4,15,14× Balloon,,Scatter,rockets,19 normal 0.75,normal,True,6,0.80,0.28,0.33,0.14,0.42,0.00
+bl_0020,9x10,Octagon,,0.62,5,26,13× Box 12× Balloon,Band,Mound,,20 hard 0.43,hard,True,5,0.44,0.09,0.22,0.19,0.26,0.01
+bl_0021,9x9,TopCorners,,0.77,4,21,18× Balloon,,Chevron,bomb,21 easy 0.97,easy,True,7,0.98,0.34,0.49,0.08,0.50,0.00
+bl_0022,9x9,Heart,,0.73,4,16,18× Box,Rows,,bomb,22 normal 0.87,normal,True,8,0.83,0.17,0.34,0.16,0.13,0.00
+bl_0023,9x10,Arch,Shelf,0.67,4,21,11× Box 14× Balloon,Columns,Mound,bomb,23 normal 0.81,normal,True,5,0.83,0.16,0.30,0.15,0.38,0.00
+bl_0024,9x9,Funnel,,0.80,4,15,15× Box,Rows,,,24 normal 0.76,normal,True,5,0.74,0.19,0.32,0.25,0.20,0.00
+bl_0025,9x10,TopCorners,Funnel,0.60,5,27,10× Box 15× Balloon 2× Duck,Frame,Columns,bomb,25 hard 0.44,hard,True,8,0.48,0.11,0.24,0.08,0.64,0.00
+bl_0026,9x9,Corners,,0.77,4,20,18× Balloon,,Diamond,disco,26 easy 0.97,easy,True,8,0.97,0.44,0.50,0.11,0.67,0.00
+bl_0027,8x9,Plus,,0.61,4,27,18× Balloon 4× Duck,,Corners,,27 normal 0.84,normal,True,7,0.89,0.26,0.34,0.15,0.45,0.00
+bl_0028,9x10,Arch,,0.89,4,15,10× Balloon,,Columns,,28 normal 0.79,normal,True,5,0.84,0.19,0.32,0.16,0.47,0.00
+bl_0029,8x10,Corners,,0.82,4,15,31× colour 1 14× Box,Diamond,,,29 normal 0.74,normal,True,4,0.69,0.09,0.22,0.18,0.23,0.00
+bl_0030,9x10,Tower,,0.87,5,23,38× colour 1 11× Balloon,,Band,,30 hard 0.42,hard,True,4,0.42,0.05,0.15,0.18,0.25,0.00
+bl_0031,9x9,TopCorners,,0.78,4,22,17× Balloon,,Checker,bomb,31 easy 0.97,easy,True,5,0.96,0.50,0.50,0.13,0.25,0.00
+bl_0032,9x10,Bevel,,0.81,4,23,11× Box 4× Duck,Diamond,,bomb,32 normal 0.85,normal,False,14,0.86,0.28,0.35,0.10,0.54,0.00
+bl_0033,8x10,Octagon,,0.75,4,19,14× Box,Rows,,,33 normal 0.79,normal,True,3,0.85,0.34,0.34,0.16,0.50,0.00
+bl_0034,9x9,Plus,,0.71,4,26,15× Box 4× Duck,Frame,,disco,34 normal 0.74,normal,True,2,0.70,0.17,0.33,0.12,0.45,0.00
+bl_0035,9x10,Bridge,pockets,0.80,4,29,21× colour 1 10× Box 6× Balloon,Checker,Rows,,35 hard 0.43,hard,True,15,0.47,0.02,0.22,0.15,0.29,0.00
+bl_0036,7x9,Corners,,0.71,4,22,17× Balloon,,Mound,rockets,36 easy 0.97,easy,True,5,0.95,0.64,0.45,0.08,0.60,0.00
+bl_0037,8x10,Bevel,,0.88,4,19,8× Box,Corners,,,37 normal 0.82,normal,False,22,0.80,0.30,0.38,0.23,0.00,0.00
+bl_0038,9x9,Octagon,,0.70,4,23,15× Box 2× Duck,Diamond,,,38 normal 0.77,normal,True,2,0.83,0.26,0.32,0.07,0.75,0.00
+bl_0039,9x10,Plus,Corners,0.70,5,31,20× Box,Checker,,,39 normal 0.72,normal,True,10,0.72,0.18,0.31,0.13,0.63,0.00
+bl_0040,9x10,TopCorners,,0.76,5,40,47× colour 1 17× Box 4× Duck,Columns,,,40 superHard 0.22,superHard,True,5,0.19,0.01,0.20,0.13,0.51,0.00
+bl_0041,9x9,Tower,,0.71,4,18,22× Box,Frame,,bomb,41 easy 0.97,easy,True,12,0.92,0.54,0.46,0.09,0.75,0.00
+bl_0042,9x9,Plus,,0.80,5,17,13× Balloon,,Chevron,disco,42 normal 0.84,normal,False,7,0.79,0.39,0.41,0.14,0.50,0.00
+bl_0043,8x9,Arch,,0.71,5,40,6× Box 14× Balloon,Band,Scatter,,43 normal 0.78,normal,True,10,0.73,0.35,0.34,0.11,0.65,0.00
+bl_0044,8x10,Corners,,0.79,4,15,16× Balloon,,Mound,,44 normal 0.73,normal,True,5,0.74,0.11,0.34,0.16,0.36,0.00
+bl_0045,9x10,Plus,Corners,0.51,5,30,21× Box 13× Balloon,Chevron,Rows,,45 hard 0.42,hard,True,1,0.38,0.06,0.20,0.16,0.43,0.00
+bl_0046,9x9,Heart,,0.83,4,18,11× Box,Mound,,rockets,46 easy 0.97,easy,True,5,0.93,0.27,0.48,0.19,0.14,0.00
+bl_0047,9x9,Castle,Funnel,0.71,4,21,37× colour 1 14× Box,Chevron,,rockets,47 normal 0.81,normal,True,2,0.84,0.34,0.30,0.07,0.73,0.00
+bl_0048,9x9,Arch,,0.81,5,16,15× Box,Band,,,48 normal 0.76,normal,True,6,0.76,0.25,0.33,0.12,0.43,0.00
+bl_0049,8x9,Heart,,0.96,4,23,37× colour 1 2× Duck,,,,49 normal 0.71,normal,True,2,0.76,0.22,0.23,0.09,0.65,0.00
+bl_0050,9x10,Corners,,0.76,5,39,17× Balloon 4× Duck,,Band,,50 hard 0.40,hard,False,4,0.36,0.06,0.26,0.10,0.67,0.00
+bl_0051,9x9,Octagon,,0.65,4,22,20× Balloon,,Diamond,disco,51 easy 0.97,easy,True,5,0.97,0.44,0.46,0.10,0.67,0.00
+bl_0052,9x9,Funnel,Sides,0.75,4,18,11× Box 2× Duck,Band,,,52 normal 0.82,normal,True,27,0.76,0.16,0.34,0.13,0.48,0.00
+bl_0053,8x9,TopCorners,,0.69,4,15,22× Balloon,,Scatter,,53 normal 0.76,normal,True,6,0.70,0.16,0.29,0.10,0.69,0.00
+bl_0054,8x10,Corners,,0.97,5,40,40× colour 1 2× Duck,,,,54 normal 0.71,normal,True,3,0.67,0.22,0.29,0.04,0.94,0.00
+bl_0055,9x10,Cave,pockets,0.74,5,40,50× colour 1 22× Box,Rows,,,55 hard 0.42,hard,True,3,0.42,0.04,0.18,0.09,0.75,0.00
+bl_0056,7x9,Bevel,,0.75,4,16,13× Box,Scatter,,rockets,56 easy 0.97,easy,True,9,0.98,0.48,0.46,0.08,1.00,0.00
+bl_0057,8x9,Tower,,0.76,4,19,16× Balloon,,Corners,,57 normal 0.79,normal,True,7,0.75,0.19,0.32,0.15,0.13,0.00
+bl_0058,9x10,Heart,,0.87,4,16,40× colour 1 10× Balloon,,Scatter,bomb,58 normal 0.74,normal,True,3,0.79,0.20,0.26,0.19,0.15,0.00
+bl_0059,8x10,Corners,,0.71,4,15,22× Box,Frame,,,59 normal 0.69,normal,True,5,0.69,0.07,0.35,0.13,0.47,0.00
+bl_0060,9x10,Plus,,0.64,5,40,50× colour 1 13× Box 14× Balloon,Band,Diamond,,60 superHard 0.22,superHard,True,6,0.16,0.01,0.12,0.13,0.47,0.00
+bl_0061,9x9,Arch,,0.84,4,16,13× Box,Scatter,,disco,61 easy 0.97,easy,True,8,0.96,0.36,0.50,0.12,0.50,0.00
+bl_0062,9x10,Heart,,0.61,5,40,29× Balloon,,Chevron,,62 normal 0.81,normal,True,16,0.76,0.23,0.28,0.11,0.61,0.00
+bl_0063,9x9,Castle,,0.73,5,40,18× Balloon 3× Duck,,Columns,,63 normal 0.75,normal,False,19,0.68,0.34,0.39,0.12,0.61,0.00
+bl_0064,9x9,TopCorners,,0.75,4,15,20× Balloon,,Mound,,64 normal 0.70,normal,True,5,0.66,0.10,0.28,0.14,0.48,0.00
+bl_0065,9x10,Arch,Funnel,0.55,5,28,17× Box 15× Balloon,Columns,Diamond,,65 hard 0.41,hard,True,2,0.45,0.07,0.22,0.11,0.66,0.00
+bl_0066,7x9,Bevel,,0.55,4,24,23× Balloon,,Checker,bomb,66 easy 0.97,easy,True,6,0.93,0.68,0.45,0.05,1.00,0.00
+bl_0067,8x9,Castle,,0.62,4,23,14× Box 12× Balloon,Scatter,Chevron,,67 normal 0.78,normal,True,2,0.77,0.24,0.32,0.10,0.68,0.00
+bl_0068,8x9,Heart,Shelf,0.68,5,15,10× colour 1 12× Box,Checker,,,68 normal 0.73,normal,True,4,0.72,0.36,0.22,0.09,0.78,0.00
+bl_0069,9x10,Arch,,0.80,4,20,44× colour 1 18× Box,Rows,,,69 normal 0.68,normal,True,4,0.67,0.17,0.31,0.11,0.59,0.00
+bl_0070,9x10,Bevel,,0.77,5,32,14× Box 4× Duck,Frame,,bomb,70 hard 0.39,hard,False,23,0.32,0.06,0.26,0.12,0.34,0.00
+bl_0071,9x9,Corners,,0.69,4,22,24× Balloon,,Scatter,disco,71 easy 0.97,easy,True,6,0.96,0.46,0.50,0.05,1.00,0.00
+bl_0072,9x9,Heart,,0.71,4,23,16× Balloon 3× Duck,,Corners,,72 normal 0.79,normal,True,3,0.75,0.21,0.33,0.15,0.33,0.00
+bl_0073,9x10,Plus,Corners,0.72,4,16,19× Box,Diamond,,,73 normal 0.73,normal,True,3,0.74,0.06,0.28,0.12,0.24,0.00
+bl_0074,8x10,Corners,,0.84,4,19,47× colour 1 12× Balloon,,Scatter,rockets,74 normal 0.68,normal,True,2,0.69,0.22,0.20,0.16,0.33,0.00
+bl_0075,9x10,Keyhole,pockets,0.71,5,34,40× colour 1 12× Box 12× Balloon,Chevron,Mound,,75 hard 0.40,hard,True,9,0.35,0.03,0.11,0.13,0.48,0.00
+bl_0076,9x9,Castle,,0.82,4,16,14× Box,Scatter,,bomb,76 easy 0.97,easy,True,8,1.00,0.29,0.48,0.00,0.00,0.00
+bl_0077,9x10,Tower,,0.69,4,21,26× Balloon,,Mound,,77 normal 0.76,normal,True,9,0.78,0.15,0.31,0.11,0.52,0.00
+bl_0078,8x10,Full,,0.80,4,19,47× colour 1 16× Box,Frame,,,78 normal 0.71,normal,True,4,0.75,0.08,0.21,0.14,0.46,0.00
+bl_0079,8x9,Octagon,,0.58,4,15,20× Balloon,,Checker,,79 normal 0.66,normal,True,5,0.61,0.17,0.27,0.16,0.41,0.07
+bl_0080,9x10,TopCorners,,0.64,5,40,13× Box 17× Balloon 2× Duck,Mound,Diamond,,80 superHard 0.22,superHard,True,6,0.26,0.00,0.15,0.16,0.42,0.00
+bl_0081,7x9,Corners,,0.81,4,16,11× Box,Corners,,rockets,81 easy 0.97,easy,True,8,0.95,0.54,0.46,0.13,0.60,0.00
+bl_0082,8x9,Full,,0.75,4,16,18× Balloon,,Scatter,,82 normal 0.78,normal,True,7,0.81,0.15,0.25,0.11,0.28,0.00
+bl_0083,9x10,Funnel,,0.77,4,15,19× Box,Chevron,,,83 normal 0.72,normal,True,3,0.75,0.10,0.28,0.14,0.33,0.00
+bl_0084,9x10,Castle,,0.71,5,25,25× Box,Columns,,bomb,84 normal 0.67,normal,True,9,0.66,0.23,0.29,0.11,0.48,0.00
+bl_0085,9x10,Bevel,Corners,0.46,5,30,21× Box 17× Balloon,Chevron,Scatter,,85 hard 0.39,hard,True,1,0.33,0.09,0.17,0.12,0.50,0.00
+bl_0086,7x9,TopCorners,,0.75,4,21,15× Box,Rows,,bomb,86 easy 0.97,easy,True,19,0.93,0.31,0.49,0.10,0.71,0.00
+bl_0087,9x9,Arch,,0.61,4,34,17× Box 14× Balloon,Checker,Band,disco,87 normal 0.75,normal,True,2,0.68,0.02,0.34,0.10,0.74,0.00
+bl_0088,9x10,Plus,,0.70,5,21,22× Box,Frame,,bomb,88 normal 0.70,normal,True,17,0.66,0.28,0.34,0.11,0.55,0.00
+bl_0089,8x9,Corners,Funnel,0.47,4,18,14× Box 14× Balloon,Band,Mound,,89 normal 0.65,normal,True,4,0.60,0.07,0.22,0.13,0.34,0.00
+bl_0090,9x10,Tower,,0.76,5,30,17× Balloon 3× Duck,,Diamond,,90 hard 0.37,hard,True,1,0.33,0.06,0.25,0.10,0.77,0.00
+bl_0091,9x9,Plus,,0.74,4,22,17× Balloon,,Chevron,rockets,91 easy 0.97,easy,True,3,0.91,0.46,0.42,0.10,0.44,0.00
+bl_0092,8x9,Arch,,0.82,4,40,50× colour 1 12× Box,Mound,,,92 normal 0.76,normal,True,4,0.78,0.38,0.35,0.04,1.00,0.00
+bl_0093,8x10,Corners,,0.74,4,15,20× Box,Scatter,,,93 normal 0.70,normal,True,4,0.76,0.08,0.27,0.20,0.35,0.00
+bl_0094,8x9,Full,,0.78,4,17,14× Balloon 2× Duck,,Corners,,94 normal 0.65,normal,True,4,0.61,0.13,0.35,0.21,0.27,0.00
+bl_0095,9x10,Cave,pockets,0.60,4,28,26× colour 1 12× Box 9× Balloon,Band,Columns,,95 hard 0.38,hard,True,20,0.42,0.03,0.16,0.07,0.70,0.00
+bl_0096,9x9,TopCorners,,0.78,4,16,17× Box,Chevron,,disco,96 easy 0.97,easy,True,9,1.00,0.36,0.49,0.00,0.00,0.00
+bl_0097,9x10,Plus,Sides,0.70,4,29,16× Box,Rows,,,97 normal 0.73,normal,True,2,0.74,0.08,0.30,0.13,0.40,0.00
+bl_0098,9x10,Octagon,,0.76,4,19,14× Balloon 2× Duck,,Columns,,98 normal 0.68,normal,True,3,0.65,0.17,0.31,0.10,0.56,0.00
+bl_0099,8x9,Bevel,,0.60,4,16,24× Balloon,,Scatter,rockets,99 normal 0.63,normal,True,7,0.61,0.17,0.23,0.08,0.76,0.00
+bl_0100,9x10,Tower,,0.62,5,40,14× Box 16× Balloon 2× Duck,Band,Checker,,100 superHard 0.22,superHard,True,8,0.20,0.02,0.19,0.18,0.35,0.00

@@ -1,0 +1,28 @@
+{
+  "name": "Blast.Installer",
+  "rootNamespace": "Blast.Installer",
+  "references": [
+    "Tileworks.Kit.Core",
+    "Tileworks.Kit.Injection",
+    "Tileworks.Kit.App",
+    "Tileworks.Kit.Save",
+    "Tileworks.Kit.Unity",
+    "Tileworks.Tiles.Model",
+    "Tileworks.Tiles.Levels",
+    "Tileworks.Tiles.View",
+    "Tileworks.Tiles.Installer",
+    "Blast.Api",
+    "Blast.Model",
+    "Blast.Service",
+    "Blast.Controller",
+    "Blast.View",
+    "UniTask",
+    "Tileworks.Meta.Api",
+    "Tileworks.Meta.Boosters.Service",
+    "Tileworks.Meta.Config",
+    "Tileworks.Meta.Installer",
+    "Tileworks.Kit.Content",
+    "Tileworks.Kit.Content.Addressables"
+  ],
+  "autoReferenced": false
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Blast.Tests",
+  "rootNamespace": "Blast.Tests",
+  "references": [
+    "UnityEngine.TestRunner",
+    "UnityEditor.TestRunner",
+    "Tileworks.Kit.Core",
+    "Tileworks.Tiles.Model",
+    "Tileworks.Tiles.Levels",
+    "Blast.Model",
+    "Blast.Generation",
+    "Tileworks.Tiles.Search",
+    "Tileworks.Tiles.Generation",
+    "Blast.View",
+    "Blast.Controller",
+    "Tileworks.Tiles.View",
+    "Tileworks.Tiles.Tests",
+    "Tileworks.Kit.Haptics",
+    "PrimeTween.Runtime",
+    "UniTask"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "nunit.framework.dll",
+    "Newtonsoft.Json.dll"
+  ],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS"
+  ]
+}

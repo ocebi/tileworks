@@ -1,0 +1,32 @@
+{
+  "name": "Blast.Editor",
+  "rootNamespace": "Blast.Editor",
+  "references": [
+    "Tileworks.Kit.Core",
+    "Tileworks.Kit.App",
+    "Tileworks.Kit.Audio",
+    "Tileworks.Kit.Unity",
+    "Tileworks.Kit.UI",
+    "Tileworlds.Games.Editor",
+    "Tileworks.Tiles.Model",
+    "Tileworks.Tiles.Levels",
+    "Tileworks.Tiles.Search",
+    "Tileworks.Tiles.Generation",
+    "Tileworks.Tiles.View",
+    "Tileworks.Tiles.Editor",
+    "Blast.Model",
+    "Blast.Generation",
+    "Blast.Service",
+    "Blast.Controller",
+    "Blast.View",
+    "Blast.Installer",
+    "Unity.TextMeshPro",
+    "UnityEngine.UI",
+    "Unity.InputSystem",
+    "Unity.RenderPipelines.Universal.Runtime"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "autoReferenced": false
+}

@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "id": "bl_0031",
+  "game": "blast",
+  "payloadVersion": 1,
+  "contentHash": "c51def1323071f9e",
+  "meta": {
+    "difficulty": "easy",
+    "tags": [
+      "balloon",
+      "shape:topcorners"
+    ],
+    "metrics": {
+      "casualWinRate": 0.5,
+      "nearMisses": 0.25,
+      "winRate": 0.958
+    }
+  },
+  "payload": {
+    "moves": 22,
+    "colours": 4,
+    "goals": [
+      {
+        "kind": "balloon",
+        "count": 17
+      }
+    ],
+    "rows": [
+      "#.......#",
+      ".........",
+      ".........",
+      "....b....",
+      "....o....",
+      "...o.o...",
+      "o.o.o.o.o",
+      ".o.o.o.o.",
+      "o.o.o.o.o"
+    ]
+  }
+}

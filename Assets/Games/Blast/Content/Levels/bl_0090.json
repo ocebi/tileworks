@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "id": "bl_0090",
+  "game": "blast",
+  "payloadVersion": 1,
+  "contentHash": "e0e3776f552e99d8",
+  "meta": {
+    "difficulty": "hard",
+    "tags": [
+      "balloon",
+      "duck",
+      "shape:tower"
+    ],
+    "metrics": {
+      "casualWinRate": 0.062,
+      "nearMisses": 0.766,
+      "winRate": 0.333
+    }
+  },
+  "payload": {
+    "moves": 30,
+    "colours": 5,
+    "goals": [
+      {
+        "kind": "balloon",
+        "count": 17
+      },
+      {
+        "kind": "duck",
+        "count": 3
+      }
+    ],
+    "rows": [
+      "##..d..##",
+      "#d.....d#",
+      ".........",
+      "....o....",
+      "...ooo...",
+      "..oo.oo..",
+      "..oo.oo..",
+      "...ooo...",
+      "....o....",
+      "....o...."
+    ]
+  }
+}

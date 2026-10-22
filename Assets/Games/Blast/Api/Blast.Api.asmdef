@@ -1,0 +1,7 @@
+{
+  "name": "Blast.Api",
+  "rootNamespace": "Blast.Api",
+  "references": ["Tileworks.Kit.Core"],
+  "noEngineReferences": true,
+  "autoReferenced": false
+}

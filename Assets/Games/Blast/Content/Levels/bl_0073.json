@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "id": "bl_0073",
+  "game": "blast",
+  "payloadVersion": 1,
+  "contentHash": "fc1770575085ced1",
+  "meta": {
+    "difficulty": "normal",
+    "tags": [
+      "box",
+      "shape:plus",
+      "pens:corners"
+    ],
+    "metrics": {
+      "casualWinRate": 0.062,
+      "nearMisses": 0.24,
+      "winRate": 0.74
+    }
+  },
+  "payload": {
+    "moves": 16,
+    "colours": 4,
+    "goals": [
+      {
+        "kind": "box",
+        "count": 19
+      }
+    ],
+    "rows": [
+      "##.....##",
+      "##.....##",
+      ".........",
+      ".........",
+      ".........",
+      "...x.x...",
+      "xxx...xxx",
+      "_xx...xx_",
+      "##xx.xx##",
+      "##x.x.x##"
+    ]
+  }
+}

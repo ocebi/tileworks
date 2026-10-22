@@ -1,0 +1,22 @@
+{
+  "name": "Blast.Service",
+  "rootNamespace": "Blast.Service",
+  "references": [
+    "Tileworks.Kit.Core",
+    "Tileworks.Kit.Save",
+    "Tileworks.Tiles.Model",
+    "Tileworks.Tiles.Levels",
+    "Blast.Api",
+    "Blast.Model",
+    "Gilzoide.SqliteNet",
+    "UniTask",
+    "Tileworks.Meta.Api",
+    "Tileworks.Meta.Boosters.Service",
+    "Tileworks.Meta.Config"
+  ],
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "Newtonsoft.Json.dll"
+  ],
+  "autoReferenced": false
+}
