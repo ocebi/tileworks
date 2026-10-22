@@ -1,0 +1,22 @@
+{
+  "name": "Match3.Service",
+  "rootNamespace": "Match3.Service",
+  "references": [
+    "Tileworks.Kit.Core",
+    "Tileworks.Kit.Save",
+    "Tileworks.Tiles.Model",
+    "Tileworks.Tiles.Levels",
+    "Match3.Api",
+    "Match3.Model",
+    "Gilzoide.SqliteNet",
+    "UniTask",
+    "Tileworks.Meta.Api",
+    "Tileworks.Meta.Boosters.Service",
+    "Tileworks.Meta.Config"
+  ],
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "Newtonsoft.Json.dll"
+  ],
+  "autoReferenced": false
+}

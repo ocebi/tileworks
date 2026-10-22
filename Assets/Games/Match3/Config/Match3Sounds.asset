@@ -1,0 +1,270 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2865f1e75cd6b44ba9e309df96cc3429, type: 3}
+  m_Name: Match3Sounds
+  m_EditorClassIdentifier: Match3.View::Match3.View.Match3Sounds
+  _cues:
+  - _name: Match
+    _id: 0
+    _clips:
+    - {fileID: 8300000, guid: 116bfd4e639fd4be69c41349ecbf8f5a, type: 3}
+    - {fileID: 8300000, guid: 6d8935ef401d54f1da3590f34a739041, type: 3}
+    - {fileID: 8300000, guid: c2fd41a0cdc6b49e6b538dbf5adabac2, type: 3}
+    _volume: 0.6
+    _pitchJitter: 0.05
+    _maxVoices: 4
+    _minGap: 0.04
+    _priority: 0
+  - _name: Swap
+    _id: 1
+    _clips:
+    - {fileID: 8300000, guid: e485488bc604543d5a8f86548abcfc60, type: 3}
+    _volume: 0.5
+    _pitchJitter: 0.05
+    _maxVoices: 4
+    _minGap: 0.04
+    _priority: 0
+  - _name: Special
+    _id: 2
+    _clips:
+    - {fileID: 8300000, guid: 1f90cb951aeac415d9bf8d9049ae0bc2, type: 3}
+    - {fileID: 8300000, guid: 0d89dbf851e744e5295913a948b26c53, type: 3}
+    - {fileID: 8300000, guid: aeb5bc9de1f0a435c9e1c027c5f9e85d, type: 3}
+    _volume: 0.6
+    _pitchJitter: 0.05
+    _maxVoices: 4
+    _minGap: 0.04
+    _priority: 0
+  - _name: Rocket
+    _id: 3
+    _clips:
+    - {fileID: 8300000, guid: 6e028e4498ef142d8a22364eb031b0c2, type: 3}
+    - {fileID: 8300000, guid: 10ca9ed269e8a465e9de8159c5cf71dc, type: 3}
+    _volume: 0.75
+    _pitchJitter: 0.05
+    _maxVoices: 4
+    _minGap: 0.04
+    _priority: 0
+  - _name: Bomb
+    _id: 4
+    _clips:
+    - {fileID: 8300000, guid: 411c77ca23b8f44dd9a9f404f287bd6b, type: 3}
+    _volume: 0.8
+    _pitchJitter: 0.05
+    _maxVoices: 4
+    _minGap: 0.04
+    _priority: 0
+  - _name: Disco
+    _id: 5
+    _clips:
+    - {fileID: 8300000, guid: 2ae9ce6eda5e94f2fb2c5ba177fc144e, type: 3}
+    - {fileID: 8300000, guid: e28afd4abf2c846f18ffcdfffa5ba3e7, type: 3}
+    - {fileID: 8300000, guid: fef3d3577952b457d98786380802857f, type: 3}
+    _volume: 0.7
+    _pitchJitter: 0.05
+    _maxVoices: 4
+    _minGap: 0.04
+    _priority: 0
+  - _name: Flyer
+    _id: 6
+    _clips:
+    - {fileID: 8300000, guid: cb372cb0bf1ff4bdfa74ea3e79e21923, type: 3}
+    _volume: 0.7
+    _pitchJitter: 0.05
+    _maxVoices: 4
+    _minGap: 0.04
+    _priority: 0
+  - _name: Box
+    _id: 7
+    _clips:
+    - {fileID: 8300000, guid: f7a96fed11c21461ca6e7df876b05e92, type: 3}
+    - {fileID: 8300000, guid: 4b97d76813f874423863564788339bff, type: 3}
+    - {fileID: 8300000, guid: 4dc2236cc663842df8c7e047fc88b89a, type: 3}
+    _volume: 0.7
+    _pitchJitter: 0.05
+    _maxVoices: 4
+    _minGap: 0.04
+    _priority: 0
+  - _name: Floor
+    _id: 8
+    _clips:
+    - {fileID: 8300000, guid: 1801cadf6a23143e48c43b257c8d8777, type: 3}
+    - {fileID: 8300000, guid: c692621aad1c2414fa4d73f2c7f0fac3, type: 3}
+    - {fileID: 8300000, guid: a8d291016ec3e44acb2d8ad55ad5d6d4, type: 3}
+    _volume: 0.6
+    _pitchJitter: 0.05
+    _maxVoices: 4
+    _minGap: 0.04
+    _priority: 0
+  - _name: Chain
+    _id: 9
+    _clips:
+    - {fileID: 8300000, guid: f82221d04d0f443aab14c842ffc2a630, type: 3}
+    - {fileID: 8300000, guid: d3b6b350c18014fa7ad03f8620bffeaf, type: 3}
+    - {fileID: 8300000, guid: 73f16fcc50a6343d198899343772127d, type: 3}
+    _volume: 0.7
+    _pitchJitter: 0.05
+    _maxVoices: 4
+    _minGap: 0.04
+    _priority: 0
+  - _name: Balloon
+    _id: 10
+    _clips:
+    - {fileID: 8300000, guid: cb5717af1e61c461aa29c0f617cdf8b6, type: 3}
+    - {fileID: 8300000, guid: 0109bda270e6e4cdf91493a4ad3ebfcb, type: 3}
+    _volume: 0.7
+    _pitchJitter: 0.05
+    _maxVoices: 4
+    _minGap: 0.04
+    _priority: 0
+  - _name: Duck
+    _id: 11
+    _clips:
+    - {fileID: 8300000, guid: fd4223eb859b543bd9a96273fb2d402a, type: 3}
+    - {fileID: 8300000, guid: e84fbb25ab4cb4bedb3b1bfdaaad416c, type: 3}
+    _volume: 0.7
+    _pitchJitter: 0.05
+    _maxVoices: 4
+    _minGap: 0.04
+    _priority: 0
+  - _name: Refuse
+    _id: 12
+    _clips:
+    - {fileID: 8300000, guid: 8472fad941a9545ba949a457fb32712b, type: 3}
+    _volume: 0.4
+    _pitchJitter: 0.05
+    _maxVoices: 4
+    _minGap: 0.04
+    _priority: 0
+  - _name: Shuffle
+    _id: 13
+    _clips:
+    - {fileID: 8300000, guid: 675a53c8590e54c59a4f8da209a77a41, type: 3}
+    _volume: 0.8
+    _pitchJitter: 0.05
+    _maxVoices: 4
+    _minGap: 0.04
+    _priority: 0
+  - _name: Win
+    _id: 14
+    _clips:
+    - {fileID: 8300000, guid: 175dd175e9fd64a0ea3eead8a03aa93a, type: 3}
+    _volume: 0.9
+    _pitchJitter: 0
+    _maxVoices: 4
+    _minGap: 0.04
+    _priority: 10
+  - _name: Lose
+    _id: 15
+    _clips:
+    - {fileID: 8300000, guid: b2b2fa387e7a2445492e00e45512fe79, type: 3}
+    _volume: 0.8
+    _pitchJitter: 0
+    _maxVoices: 4
+    _minGap: 0.04
+    _priority: 10
+  - _name: Hammer
+    _id: 16
+    _clips:
+    - {fileID: 8300000, guid: 2e289296f0e174a42a67bbd83bc6f144, type: 3}
+    - {fileID: 8300000, guid: 49413345caf9b4a0798a01de5b2d87b7, type: 3}
+    _volume: 0.9
+    _pitchJitter: 0.05
+    _maxVoices: 4
+    _minGap: 0.04
+    _priority: 0
+  - _name: BombFuse
+    _id: 17
+    _clips:
+    - {fileID: 8300000, guid: 2e608ace2ace54d9a91353b150a1db04, type: 3}
+    _volume: 0.5
+    _pitchJitter: 0.05
+    _maxVoices: 4
+    _minGap: 0.04
+    _priority: 0
+  - _name: BigBoom
+    _id: 18
+    _clips:
+    - {fileID: 8300000, guid: 411c77ca23b8f44dd9a9f404f287bd6b, type: 3}
+    _volume: 0.95
+    _pitchJitter: 0.05
+    _maxVoices: 4
+    _minGap: 0.04
+    _priority: 5
+  - _name: DiscoCharge
+    _id: 19
+    _clips:
+    - {fileID: 8300000, guid: bcc740d5956354fd2a88e6f2737288ca, type: 3}
+    - {fileID: 8300000, guid: 23085055a1bac46afbe6ead9ae52d550, type: 3}
+    _volume: 0.6
+    _pitchJitter: 0.05
+    _maxVoices: 4
+    _minGap: 0.04
+    _priority: 0
+  - _name: DiscoZap
+    _id: 20
+    _clips:
+    - {fileID: 8300000, guid: 3fc058abe6ee2417483f5c3a3b173fe9, type: 3}
+    - {fileID: 8300000, guid: c5c4c9b10f2144b7091493bfd7d11589, type: 3}
+    _volume: 0.5
+    _pitchJitter: 0.05
+    _maxVoices: 6
+    _minGap: 0.03
+    _priority: 0
+  - _name: ComboGather
+    _id: 21
+    _clips:
+    - {fileID: 8300000, guid: 66f61d72d63004680a30b7fd3a75716c, type: 3}
+    _volume: 0.7
+    _pitchJitter: 0.05
+    _maxVoices: 4
+    _minGap: 0.04
+    _priority: 0
+  - _name: ComboBoom
+    _id: 22
+    _clips:
+    - {fileID: 8300000, guid: 62a66a13c87e34a15b7ea684fbec1711, type: 3}
+    _volume: 0.9
+    _pitchJitter: 0.05
+    _maxVoices: 4
+    _minGap: 0.04
+    _priority: 5
+  - _name: Land
+    _id: 23
+    _clips:
+    - {fileID: 8300000, guid: 0da8e8d2c29a3475ebe95577b13b4b60, type: 3}
+    - {fileID: 8300000, guid: 9e6c52ac962174527be37cacd9ba4ab9, type: 3}
+    _volume: 0.35
+    _pitchJitter: 0.05
+    _maxVoices: 2
+    _minGap: 0.06
+    _priority: 0
+  - _name: BoxBreak
+    _id: 24
+    _clips:
+    - {fileID: 8300000, guid: 73a0d088947bc4da0870d2d3a54e04f9, type: 3}
+    - {fileID: 8300000, guid: c44c919dc74d649b9aa7844e6f3d11a9, type: 3}
+    _volume: 0.75
+    _pitchJitter: 0.05
+    _maxVoices: 4
+    _minGap: 0.04
+    _priority: 0
+  - _name: ChainBreak
+    _id: 25
+    _clips:
+    - {fileID: 8300000, guid: a2a5e3637dd8c4bc38e0a394e30b7df9, type: 3}
+    - {fileID: 8300000, guid: 7c008452f4fea47798f4ac73bc4dbcf9, type: 3}
+    _volume: 0.75
+    _pitchJitter: 0.05
+    _maxVoices: 4
+    _minGap: 0.04
+    _priority: 0

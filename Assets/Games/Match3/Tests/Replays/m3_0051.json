@@ -1,0 +1,18 @@
+{
+  "levelId": "m3_0051",
+  "contentHash": "fab7f32fb0ea4969",
+  "rulesVersion": 2,
+  "seed": 7,
+  "outcome": "Won",
+  "finalHash": "12c2edba66e1d922",
+  "eventDigest": "09b3636a384dfc89",
+  "actions": [
+    [1, 72, 73],
+    [7, 0, 0],
+    [1, 48, 49],
+    [7, 0, 0],
+    [4, 21, 0],
+    [7, 0, 0],
+    [1, 30, 31]
+  ]
+}

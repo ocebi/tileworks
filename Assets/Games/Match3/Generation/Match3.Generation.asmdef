@@ -1,0 +1,7 @@
+{
+  "name": "Match3.Generation",
+  "rootNamespace": "Match3.Generation",
+  "references": ["Tileworks.Kit.Core", "Tileworks.Tiles.Model", "Tileworks.Tiles.Search", "Match3.Model", "Tileworks.Tiles.Generation"],
+  "noEngineReferences": true,
+  "autoReferenced": false
+}

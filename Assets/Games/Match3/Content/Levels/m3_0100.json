@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "id": "m3_0100",
+  "game": "match3",
+  "payloadVersion": 1,
+  "contentHash": "72c5096f14555076",
+  "meta": {
+    "difficulty": "superHard",
+    "tags": [
+      "colour",
+      "box",
+      "floor",
+      "shape:octagon"
+    ],
+    "metrics": {
+      "casualWinRate": 0.021,
+      "nearMisses": 0.45,
+      "winRate": 0.167
+    }
+  },
+  "payload": {
+    "moves": 24,
+    "colours": 5,
+    "goals": [
+      {
+        "kind": "colour",
+        "count": 68,
+        "colour": 1
+      },
+      {
+        "kind": "box",
+        "count": 22
+      },
+      {
+        "kind": "floor",
+        "count": 29
+      }
+    ],
+    "rows": [
+      "###...###",
+      "##.....##",
+      "#.......#",
+      ".XX.X.XX.",
+      ".XX.X.XX.",
+      ".XX.b.XX.",
+      ".XX...XX.",
+      "#.X.X.X.#",
+      "##..X..##",
+      "###...###"
+    ],
+    "floor": [".........", ".........", ".........", "1..1.1..1", "1..1.1..1", "1..111..1", "1..111..1", ".1.1.1.1.", "..11.11..", "...111..."]
+  }
+}

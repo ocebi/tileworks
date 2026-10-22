@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "id": "m3_0023",
+  "game": "match3",
+  "payloadVersion": 1,
+  "contentHash": "ba56b016157b32bb",
+  "meta": {
+    "difficulty": "normal",
+    "tags": [
+      "box",
+      "floor",
+      "shape:plus",
+      "pens:shelf"
+    ],
+    "metrics": {
+      "casualWinRate": 0.208,
+      "nearMisses": 0.889,
+      "winRate": 0.812
+    }
+  },
+  "payload": {
+    "moves": 14,
+    "colours": 5,
+    "goals": [
+      {
+        "kind": "box",
+        "count": 10
+      },
+      {
+        "kind": "floor",
+        "count": 19
+      }
+    ],
+    "rows": [
+      "##.....##",
+      "##.....##",
+      ".........",
+      "....b....",
+      "..xxxxx..",
+      ".x.___.x.",
+      "..x._.x..",
+      "##..x..##",
+      "##.....##"
+    ],
+    "floor": [".........", ".........", ".........", ".........", "11.....11", "1.1...1.1", ".1.1.1.1.", "..11.11..", "...111..."]
+  }
+}

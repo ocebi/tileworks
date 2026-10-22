@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fe7b3e9078244851ad2d2a13570dab8, type: 3}
+  m_Name: Match3BoardFx
+  m_EditorClassIdentifier: Tileworks.Tiles.View::Tileworks.Tiles.View.BoardFxConfig
+  _shard:
+    _sprite: {fileID: 21300000, guid: cd19b641d345844648e2fc38f7ca6a18, type: 3}
+    _order: 55
+    _speed: {x: 1.8, y: 3.6}
+    _lift: 1.5
+    _size: {x: 0.14, y: 0.26}
+    _life: {x: 0.4, y: 0.6}
+    _gravity: 18
+    _spin: 540
+    _endSize: 0.6
+    _fade: 0.4
+  _smoke:
+    _sprite: {fileID: 21300000, guid: b6ff0f856006941aa8bdeab589659c6e, type: 3}
+    _order: 52
+    _speed: {x: 0.3, y: 1}
+    _lift: 0.4
+    _size: {x: 0.5, y: 0.9}
+    _life: {x: 0.6, y: 0.9}
+    _gravity: -0.6
+    _spin: 60
+    _endSize: 1.8
+    _fade: 0.7
+  _spark:
+    _sprite: {fileID: 21300000, guid: af8cc8610fe294d5ab56577644b321ae, type: 3}
+    _order: 58
+    _speed: {x: 2.5, y: 5}
+    _lift: 0.5
+    _size: {x: 0.08, y: 0.14}
+    _life: {x: 0.2, y: 0.38}
+    _gravity: 4
+    _spin: 0
+    _endSize: 0.3
+    _fade: 0.5
+  _star:
+    _sprite: {fileID: 21300000, guid: 4b84c55db7d804497a6e81ccb578b9d3, type: 3}
+    _order: 58
+    _speed: {x: 0.2, y: 0.9}
+    _lift: 0.3
+    _size: {x: 0.15, y: 0.3}
+    _life: {x: 0.4, y: 0.65}
+    _gravity: 0
+    _spin: 360
+    _endSize: 0.2
+    _fade: 0.5
+  _material: {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
+  _shardsPerPiece: {x: 6, y: 10}
+  _smokePerPuff: {x: 4, y: 6}
+  _sparksPerBurst: {x: 8, y: 12}
+  _debrisPerCell: 8
+  _trailPerCell: {x: 3, y: 3}
+  _reducedShare: 0.35
+  _beam: {fileID: 21300000, guid: f6b1d7362e8f94b3683d99a2b9b8031c, type: 3}
+  _beamWidth: 0.45
+  _beamGrow: 0.12
+  _beamFade: 0.2
+  _wiggleDegrees: 8
+  _wiggleEvery: 2.4
+  _wiggleFor: 0.45
+  _wiggleRate: 7
+  _fuseOffset: {x: 0.27, y: 0.36}
+  _fuseSparkEvery: 0.18
+  _twinkleEvery: 0.22
+  _twinkleReach: 0.42
+  _sweepDuration: 0.4
+  _sweepWidth: 1.6
+  _sweepAlpha: 0.5
+  _sweepTilt: 25
+  _shakePerCell: 0.06
+  _shakeDuration: 0.28
+  _shakeFrequency: 24
+  _punchScale: 0.035
+  _punchDuration: 0.3
+  _punchFrequency: 4

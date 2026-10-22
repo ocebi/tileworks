@@ -1,0 +1,28 @@
+{
+  "name": "Match3.Installer",
+  "rootNamespace": "Match3.Installer",
+  "references": [
+    "Tileworks.Kit.Core",
+    "Tileworks.Kit.Injection",
+    "Tileworks.Kit.App",
+    "Tileworks.Kit.Save",
+    "Tileworks.Kit.Unity",
+    "Tileworks.Tiles.Model",
+    "Tileworks.Tiles.Levels",
+    "Tileworks.Tiles.View",
+    "Tileworks.Tiles.Installer",
+    "Match3.Api",
+    "Match3.Model",
+    "Match3.Service",
+    "Match3.Controller",
+    "Match3.View",
+    "UniTask",
+    "Tileworks.Meta.Api",
+    "Tileworks.Meta.Boosters.Service",
+    "Tileworks.Meta.Config",
+    "Tileworks.Meta.Installer",
+    "Tileworks.Kit.Content",
+    "Tileworks.Kit.Content.Addressables"
+  ],
+  "autoReferenced": false
+}

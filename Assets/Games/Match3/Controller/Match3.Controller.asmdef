@@ -1,0 +1,21 @@
+{
+  "name": "Match3.Controller",
+  "rootNamespace": "Match3.Controller",
+  "references": [
+    "Tileworks.Kit.Core",
+    "Tileworks.Kit.App",
+    "Tileworks.Kit.Audio",
+    "Tileworks.Kit.Input",
+    "Tileworks.Tiles.Model",
+    "Tileworks.Tiles.Levels",
+    "Tileworks.Tiles.View",
+    "Match3.Api",
+    "Match3.Model",
+    "Match3.Service",
+    "UniTask",
+    "Tileworks.Meta.Api",
+    "Tileworks.Meta.Boosters.Service",
+    "Tileworks.Kit.Unity"
+  ],
+  "autoReferenced": false
+}

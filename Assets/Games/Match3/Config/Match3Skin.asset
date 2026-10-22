@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c9c2e894ce344f32a5507f60b9a9bd2, type: 3}
+  m_Name: Match3Skin
+  m_EditorClassIdentifier: Match3.View::Match3.View.Match3Skin
+  _gems:
+  - {fileID: 21300000, guid: da187bb58ce8745b6bca5005a5e276bd, type: 3}
+  - {fileID: 21300000, guid: 46e939d49ec744985aa2b917a43e2a73, type: 3}
+  - {fileID: 21300000, guid: 03e97c1c952c44833b7203047d2af1aa, type: 3}
+  - {fileID: 21300000, guid: ddd8db6768fd84db383b29472ed28847, type: 3}
+  - {fileID: 21300000, guid: ff962d02d9eb84dd896fb2e715ddee6d, type: 3}
+  - {fileID: 21300000, guid: 7cff5abf516d54efa83fdac13449a0b6, type: 3}
+  _rocketRow: {fileID: 21300000, guid: 2f064a9484f76448d8578c07362ce28c, type: 3}
+  _rocketColumn: {fileID: 21300000, guid: 800ce5719f36049a5aafab761b48f6ec, type: 3}
+  _bomb: {fileID: 21300000, guid: 4753f238abc0f4b21a1eb46d9bebda9d, type: 3}
+  _disco: {fileID: 21300000, guid: 40188ab758eff4696b10eef600687d41, type: 3}
+  _flyer: {fileID: 21300000, guid: 118778f43c929458c861bbb31d597c2b, type: 3}
+  _box: {fileID: 21300000, guid: 938088a0267814e23bd391c96c40fc73, type: 3}
+  _boxLastLayer: {fileID: 21300000, guid: ff05e62b71ddd4ec69af0b24b3c4ec1c, type: 3}
+  _floor: {fileID: 21300000, guid: aa08487abdf9640fa9c306917e7d66f8, type: 3}
+  _floorLastLayer: {fileID: 21300000, guid: 14710ba251e6a42ad8a85e4bfe16b120, type: 3}
+  _chain: {fileID: 21300000, guid: 2e065edef14a54f6aba1aff5e0c6da6e, type: 3}
+  _balloon: {fileID: 21300000, guid: 5a65abf0517ec448a95b3b8313e2f67c, type: 3}
+  _duck: {fileID: 21300000, guid: 5af9aafb279c349b6b67ca21ae08118b, type: 3}
+  _cellLight: {fileID: 21300000, guid: 73fc4cb36bb8d4404adc7854cad5fd29, type: 3}
+  _cellDark: {fileID: 21300000, guid: 6f04bb46e215e4b47ac435050717f808, type: 3}
+  _boardRim: {fileID: 21300000, guid: 210a2d0ab0ceb4acdb8e1fd4489f7661, type: 3}
+  _boardFill: {fileID: 21300000, guid: 55127b3b9311f423da89e1c1dc612488, type: 3}
+  _frameMargin: 0.28
+  _frameRimWidth: 0.07
+  _selectRing: {fileID: 21300000, guid: 669343d34e8e74c0684ac7a8ef3530fc, type: 3}
+  _hintGlow: {fileID: 21300000, guid: ad5b61e3eb7454665afe6c5e6710e3d1, type: 3}
+  _flash: {fileID: 21300000, guid: 86b1c2fbaaa04497c9b2ba47fc8b564e, type: 3}
+  _ring: {fileID: 21300000, guid: 3140546262145425082e066fc0eba22d, type: 3}
+  _spark: {fileID: 21300000, guid: 10142837f1a6b401aa566fbdd4f741c8, type: 3}
+  _spriteMaterial: {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
+  _colours:
+  - {r: 0.92156863, g: 0.28235295, b: 0.27450982, a: 1}
+  - {r: 0.23529412, g: 0.49019608, b: 0.92156863, a: 1}
+  - {r: 0.23529412, g: 0.7254902, b: 0.3529412, a: 1}
+  - {r: 0.98039216, g: 0.7647059, b: 0.19607843, a: 1}
+  - {r: 0.627451, g: 0.3529412, b: 0.88235295, a: 1}
+  - {r: 0.11764706, g: 0.6666667, b: 0.7254902, a: 1}

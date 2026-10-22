@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34276482a85a046228efbcccf0d5918f, type: 3}
+  m_Name: Match3Feel
+  m_EditorClassIdentifier: Match3.View::Match3.View.Match3FeelConfig
+  _topReserved: 0.2
+  _bottomReserved: 0.17
+  _clearSquash: 1.18
+  _clearDuration: 0.22
+  _clearStagger: 0.035
+  _mergeDuration: 0.2
+  _mergeStagger: 0.04
+  _specialAppear: 0.28
+  _swapDuration: 0.18
+  _swapSwell: 1.08
+  _refuseThere: 0.15
+  _refuseBack: 0.22
+  _chainShakeDegrees: 8
+  _chainShake: 0.2
+  _selectIn: 0.12
+  _selectPulseScale: 1.07
+  _selectPulse: 1
+  _fallBase: 0.08
+  _fallPerRow: 0.12
+  _fallColumnStagger: 0.03
+  _slideStep: 0.12
+  _landSquash: {x: 1.14, y: 0.8}
+  _landDuration: 0.18
+  _rocketFlight: 0.42
+  _rocketPopBase: 0.08
+  _rocketPopStep: 0.045
+  _bombWobbleDegrees: 14
+  _bombWobble: 0.14
+  _ringScale: {x: 0.2, y: 2.6}
+  _ringDuration: 0.38
+  _bombPopBase: 0.14
+  _bombPopStep: 0.055
+  _discoRay: 0.18
+  _discoRayStep: 0.06
+  _discoPopAfter: 0.2
+  _comboGather: 0.24
+  _comboCharge: 0.4
+  _comboSwell: 1.45
+  _comboShakeDegrees: 10
+  _comboSparks: 10
+  _comboSparkReach: 1.8
+  _comboBurst: 0.35
+  _flyerTakeOff: 0.18
+  _flyerTakeOffScale: 1.35
+  _flyerRise: 0.3
+  _flyerFlight: 0.5
+  _flyerArc: 0.35
+  _flyerNose: -38
+  _flyerSparkEvery: 0.04
+  _flyerHit: 0.16
+  _chainBreak: 0.3
+  _floorClear: 0.25
+  _boxShake: 0.1
+  _boxClear: 0.25
+  _shuffleBanner: 0.8
+  _shuffleLift: 0.12
+  _shuffleFlight: 0.45
+  _shuffleStagger: 0.12
+  _calloutIn: 0.25
+  _calloutHold: 0.5
+  _calloutRise: 30
+  _calloutOut: 0.3
+  _bannerIn: 0.3
+  _bannerHold: 0.5
+  _bannerOut: 0.25
+  _goalLift: 0.1
+  _goalLiftScale: 1.3
+  _goalFlight: 0.5
+  _goalArc: 0.2
+  _hintDelay: 8
+  _hintNudge: 0.18
+  _hintStep: 0.22
+  _hintRest: 1.6
+  _hintGlowAlpha: 0.85
+  _refuseDuration: 0.2
+  _resultDelay: 0.6

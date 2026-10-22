@@ -1,0 +1,34 @@
+{
+  "name": "Match3.Tests",
+  "rootNamespace": "Match3.Tests",
+  "references": [
+    "UnityEngine.TestRunner",
+    "UnityEditor.TestRunner",
+    "Tileworks.Kit.Core",
+    "Tileworks.Tiles.Model",
+    "Tileworks.Tiles.Levels",
+    "Tileworks.Tiles.Search",
+    "Tileworks.Tiles.Generation",
+    "Match3.Model",
+    "Match3.Generation",
+    "Match3.View",
+    "Match3.Controller",
+    "Tileworks.Tiles.View",
+    "Tileworks.Tiles.Tests",
+    "Tileworks.Kit.Haptics",
+    "PrimeTween.Runtime",
+    "UniTask"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "nunit.framework.dll",
+    "Newtonsoft.Json.dll"
+  ],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS"
+  ]
+}

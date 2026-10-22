@@ -1,0 +1,22 @@
+{
+  "name": "Match3.View",
+  "rootNamespace": "Match3.View",
+  "references": [
+    "Tileworks.Kit.Core",
+    "Tileworks.Kit.App",
+    "Tileworks.Kit.Audio",
+    "Tileworks.Kit.Unity",
+    "Tileworks.Kit.UI",
+    "Tileworks.Kit.Haptics",
+    "Tileworks.Tiles.Model",
+    "Tileworks.Tiles.View",
+    "Match3.Api",
+    "Match3.Model",
+    "Match3.Controller",
+    "PrimeTween.Runtime",
+    "Unity.TextMeshPro",
+    "UnityEngine.UI",
+    "UniTask"
+  ],
+  "autoReferenced": false
+}

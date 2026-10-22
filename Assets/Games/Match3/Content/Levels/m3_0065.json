@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "id": "m3_0065",
+  "game": "match3",
+  "payloadVersion": 1,
+  "contentHash": "3b666a45c7bdaa02",
+  "meta": {
+    "difficulty": "hard",
+    "tags": [
+      "box",
+      "balloon",
+      "shape:corners",
+      "pens:funnel"
+    ],
+    "metrics": {
+      "casualWinRate": 0.083,
+      "nearMisses": 0.464,
+      "winRate": 0.417
+    }
+  },
+  "payload": {
+    "moves": 20,
+    "colours": 5,
+    "goals": [
+      {
+        "kind": "box",
+        "count": 15
+      },
+      {
+        "kind": "balloon",
+        "count": 15
+      }
+    ],
+    "rows": [
+      "#.......#",
+      ".........",
+      ".o..o..o.",
+      ".o..o..o.",
+      ".o..o..o.",
+      "XX..o..XX",
+      "_XX.X.XX_",
+      "__.XXX.__",
+      "_oX.X.Xo_",
+      "#o..o..o#"
+    ]
+  }
+}

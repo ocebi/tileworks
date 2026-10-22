@@ -1,0 +1,7 @@
+{
+  "name": "Match3.Api",
+  "rootNamespace": "Match3.Api",
+  "references": ["Tileworks.Kit.Core"],
+  "noEngineReferences": true,
+  "autoReferenced": false
+}

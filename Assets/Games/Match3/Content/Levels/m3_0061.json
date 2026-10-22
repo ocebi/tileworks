@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "id": "m3_0061",
+  "game": "match3",
+  "payloadVersion": 1,
+  "contentHash": "25519f7e4a4e6acb",
+  "meta": {
+    "difficulty": "easy",
+    "tags": [
+      "box",
+      "shape:topcorners"
+    ],
+    "metrics": {
+      "casualWinRate": 0.5,
+      "nearMisses": 0.0,
+      "winRate": 1.0
+    }
+  },
+  "payload": {
+    "moves": 16,
+    "colours": 5,
+    "goals": [
+      {
+        "kind": "box",
+        "count": 24
+      }
+    ],
+    "rows": [
+      "#.......#",
+      ".........",
+      ".........",
+      "....*....",
+      ".xxxxxxx.",
+      "x.xxxxx.x",
+      ".x.xxx.x.",
+      ".xx.x.xx.",
+      "........."
+    ]
+  }
+}
