@@ -42,13 +42,13 @@ namespace Hub.Editor
         private static readonly Look[] Looks =
         {
             new Look("Tile Match", "Tile Match", UiFactory.PillOutline, "hub_card_tilematch", "Assets/Games/TileMatch/Art/Backgrounds/bg_tm_home.png",
-                "Assets/Games/TileMatch/Art/UI/char_bear.png", -6f),
+                "Assets/Games/TileMatch/Art/UI/hero_tiles.png", 0f),
             new Look("Block Puzzle", "Block Puzzle", new Color32(42, 20, 96, 255), "hub_card_blockpuzzle",
-                "Assets/Games/BlockPuzzle/Art/Backgrounds/bg_bp_home.png", "Assets/Games/BlockPuzzle/Art/UI/char_block.png", 6f),
+                "Assets/Games/BlockPuzzle/Art/Backgrounds/bg_bp_home.png", "Assets/Games/BlockPuzzle/Art/UI/hero_blocks.png", 0f),
             new Look("Blast", "Blast!", new Color32(90, 20, 15, 255), "hub_card_blast", "Assets/Games/Blast/Art/Design/Backgrounds/bg_blast_home.png",
-                "Assets/Games/Blast/Art/Design/UI/char_cube.png", -4f),
+                "Assets/Games/Blast/Art/Design/UI/hero_cubes.png", 0f),
             new Look("Gem Swap", "Gem Swap", new Color32(13, 71, 102, 255), "hub_card_match3", "Assets/Games/Match3/Art/Design/Backgrounds/bg_match3_home.png",
-                "Assets/Games/Match3/Art/Design/UI/char_star.png", -4f),
+                "Assets/Games/Match3/Art/Design/UI/hero_gems.png", 0f),
         };
 
         private readonly struct Look

@@ -7,8 +7,8 @@ python3 -I make_art.py <out>/svg && python3 -I ../render.py <out>/svg <out>/png 
 python3 -I make_scene.py <out>/scene && python3 -I ../render.py <out>/scene <out>/scene-png <out>/scene-sheet.png '#222' 3 300
 ```
 
-Copy `png/*.png` to `Assets/Games/Match3/Art/Design/`, `bg_match3_home.png` and `bg_match3_game.png` to `Design/Backgrounds/`
-and `char_star.png` to `Design/UI/`. The hub card comes from `../hub/make_hub.py` once those are in place.
+Copy `png/*.png` to `Assets/Games/Match3/Art/Design/` and `bg_match3_home.png` and `bg_match3_game.png` to
+`Design/Backgrounds/`. The hub card and the hero come from `../hub/make_hub.py` once those are in place.
 
 - Every piece is 128 px with a transparent background.
 - `board_frame` is a 9-slice with 32 px borders.

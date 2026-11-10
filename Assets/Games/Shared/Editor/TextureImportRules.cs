@@ -19,7 +19,7 @@ namespace Tileworlds.Games.Editor
             var importer = (TextureImporter)assetImporter;
             var name = Path.GetFileName(assetPath);
             if (assetPath.Contains("/Backgrounds/")) Backdrop(importer);
-            else if (name.StartsWith("char_")) Compressed(importer, 512);
+            else if (name.StartsWith("hero_")) Compressed(importer, 512);
             else if (name == "hub_card_glow.png") Compressed(importer, 128);
             else if (name.StartsWith("hub_")) Compressed(importer, 512);
         }

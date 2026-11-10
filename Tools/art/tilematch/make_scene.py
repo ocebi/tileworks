@@ -1,4 +1,4 @@
-"""Writes the Tile Match backdrops (a forest lake in the morning; Home sharp, Game blurred and dimmed) and the bear mascot."""
+"""Writes the Tile Match backdrops (a forest lake in the morning; Home sharp, Game blurred and dimmed)."""
 import math
 import os
 import random
@@ -110,37 +110,4 @@ dim, dimd = vgrad([(0, "#0B1A3A", 0.22), (1, "#0B2A10", 0.35)])
 with open(os.path.join(OUT, "bg_tm_game.svg"), "w") as f:
     f.write(svg(f"<defs>{bd}{dimd}</defs><g filter=\"url(#{b})\">{home}</g>" + f'<rect width="{W}" height="{H}" fill="url(#{dim})"/>',
                 f"0 0 {W} {H}", (W, H)))
-
-
-def bear():
-    fur, furd = rgrad([(0, "#D9A066", 1), (0.55, "#A86A36", 1), (1, "#7A4A22", 1)], cx=0.4, cy=0.32, r=0.75)
-    ear, eard = rgrad([(0, "#C98B52", 1), (1, "#7A4A22", 1)], cx=0.4, cy=0.35, r=0.7)
-    muzzle, muzzled = vgrad([(0, "#FBE8C8", 1), (1, "#E6C08E", 1)])
-    nose, nosed = rgrad([(0, "#6A4A3A", 1), (1, "#2A160C", 1)], cx=0.4, cy=0.3, r=0.7)
-    eye, eyed = rgrad([(0, "#FFFFFF", 1), (0.8, "#FFFFFF", 1), (1, "#E3E8F2", 1)], cx=0.45, cy=0.4, r=0.6)
-    rim = "#4E2C12"
-    out = f"<defs>{furd}{eard}{muzzled}{nosed}{eyed}</defs>"
-    for x in (130, 382):
-        out += p(circ(x, 130, 64), f'fill="url(#{ear})" stroke="{rim}" stroke-width="7"') + p(circ(x, 136, 34), 'fill="#F0C49A"')
-    out += f'<ellipse cx="256" cy="282" rx="196" ry="176" fill="url(#{fur})" stroke="{rim}" stroke-width="7"/>'
-    out += '<ellipse cx="190" cy="168" rx="70" ry="24" transform="rotate(-18 190 168)" fill="#FFFFFF" fill-opacity="0.35"/>'
-    for x, tilt in ((178, -10), (334, 10)):
-        out += p(f"M{x - 38} 200Q{x} {176 + tilt} {x + 38} 200", f'fill="none" stroke="{rim}" stroke-width="12" stroke-linecap="round"')
-        out += f'<ellipse cx="{x}" cy="250" rx="40" ry="46" fill="url(#{eye})" stroke="{rim}" stroke-width="5"/>'
-        out += p(circ(x - 4, 256, 22), 'fill="#2A160C"') + p(circ(x - 12, 246, 8), 'fill="#FFFFFF"') + p(circ(x + 4, 266, 3.5), 'fill="#FFFFFF"')
-    out += '<ellipse cx="128" cy="320" rx="30" ry="18" fill="#FF8A8A" fill-opacity="0.6"/><ellipse cx="384" cy="320" rx="30" ry="18" fill="#FF8A8A" fill-opacity="0.6"/>'
-    out += f'<ellipse cx="256" cy="340" rx="96" ry="72" fill="url(#{muzzle})" stroke="{rim}" stroke-width="5"/>'
-    mouth = "M206 352Q256 362 306 352Q300 410 256 410Q212 410 206 352z"
-    m, md = clip(p(mouth))
-    out += (f"<defs>{md}</defs>" + p(mouth, 'fill="#5A1A0E"') + f'<g clip-path="url(#{m})">' + p(circ(256, 422, 34), 'fill="#FF7A8A"') + "</g>"
-            + p(mouth, f'fill="none" stroke="{rim}" stroke-width="5" stroke-linejoin="round"'))
-    out += f'<ellipse cx="256" cy="312" rx="36" ry="24" fill="url(#{nose})"/>' + '<ellipse cx="244" cy="304" rx="12" ry="6" fill="#FFFFFF" fill-opacity="0.7"/>'
-    for x in (150, 362):
-        out += f'<ellipse cx="{x}" cy="462" rx="64" ry="44" fill="url(#{fur})" stroke="{rim}" stroke-width="7"/>'
-        out += "".join(p(circ(x + dx, 448, 9), 'fill="#5A3418"') for dx in (-24, 0, 24))
-    return out
-
-
-with open(os.path.join(OUT, "char_bear.svg"), "w") as f:
-    f.write(svg(bear(), "0 0 512 512", (384, 384)))
 print("tile match scene svgs")

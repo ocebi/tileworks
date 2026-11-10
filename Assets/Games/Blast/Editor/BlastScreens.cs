@@ -52,7 +52,7 @@ namespace Blast.Editor
             Headline("Title", logo, "Blast!", 160, Centre, Vector2.zero, new Vector2(1000, 220), -4f);
 
             // The level path runs between the logo and Play; the mascot peeks out behind the current node.
-            var mascot = UiFactory.Mascot(root, BlastArtBuilder.LoadUi("char_cube"), Centre, Vector2.zero, 280, -8f).rectTransform;
+            var mascot = UiFactory.Mascot(root, BlastArtBuilder.LoadUi("hero_cubes"), Centre, Vector2.zero, 280, 0f).rectTransform;
             var path = LevelPathScreen.Build(UiFactory.Rect("LevelPath", root, new Vector2(0.03f, 1f), new Vector2(0.97f, 1f), new Vector2(0, -1030), new Vector2(0, 560)),
                 mascot);
 

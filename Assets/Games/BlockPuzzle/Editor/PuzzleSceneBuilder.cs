@@ -27,7 +27,7 @@ namespace BlockPuzzle.Editor
         private static readonly Color TitleOutline = new Color32(42, 20, 96, 255);
         private const string HomeBackdrop = PuzzleArtBuilder.Folder + "/Backgrounds/bg_bp_home.png";
         private const string GameBackdrop = PuzzleArtBuilder.Folder + "/Backgrounds/bg_bp_game.png";
-        private const string BuddyPath = PuzzleArtBuilder.Folder + "/UI/char_block.png";
+        private const string HeroPath = PuzzleArtBuilder.Folder + "/UI/hero_blocks.png";
 
         [MenuItem("Tileworks/Block Puzzle/Rebuild Scenes")]
         public static void Build()
@@ -96,7 +96,7 @@ namespace BlockPuzzle.Editor
             var title = UiFactory.HomeTitle(root, "Block Puzzle", TitleOutline);
             var centre = new Vector2(0.5f, 0.5f);
             // The level path runs between the title and Play; the mascot peeks out behind the current node.
-            var mascot = UiFactory.Mascot(root, ArtImport.Sprite(BuddyPath, 100), centre, Vector2.zero, 280, 6f);
+            var mascot = UiFactory.Mascot(root, ArtImport.Sprite(HeroPath, 100), centre, Vector2.zero, 280, 0f);
             var path = LevelPathScreen.Build(UiFactory.Rect("LevelPath", root, new Vector2(0.03f, 0.40f), new Vector2(0.97f, 0.62f), Vector2.zero, Vector2.zero),
                 mascot.rectTransform);
             var play = UiFactory.Button("Play", root, "Green", "Play", new Vector2(0.5f, 0.34f), Vector2.zero, new Vector2(560, 190), fontSize: 76);

@@ -65,7 +65,7 @@ namespace Match3.Editor
             Headline("Title", logo, Title, 183, Centre, Vector2.zero, new Vector2(1000, 230), -4f);
 
             // The level path runs between the logo and Play; the mascot peeks out behind the current node.
-            var mascot = UiFactory.Mascot(root, Match3ArtBuilder.LoadUi("char_star"), Centre, Vector2.zero, 280, 0f).rectTransform;
+            var mascot = UiFactory.Mascot(root, Match3ArtBuilder.LoadUi("hero_gems"), Centre, Vector2.zero, 280, 0f).rectTransform;
             var path = LevelPathScreen.Build(UiFactory.Rect("LevelPath", root, new Vector2(0.03f, 0f), new Vector2(0.97f, 0f),
                 new Vector2(0, PathBottom + PathHeight * 0.5f), new Vector2(0, PathHeight)), mascot);
 

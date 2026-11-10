@@ -1,8 +1,6 @@
-"""Writes the Tileworlds app icon candidates (1024 px, square, full-bleed, no text). The mascots come from the games' scene
-generators, so render those first into one folder:
+"""Writes the Tileworlds app icon (1024 px, square, full-bleed, no text):
 
-    for g in tilematch blockpuzzle blast match3; do (cd ../$g && python3 -I make_scene.py <chars>); done
-    python3 -I make_icon.py <out>/svg <chars> && python3 -I ../render.py <out>/svg <out>/png <out>/sheet.png '#333' 4 256
+    python3 -I make_icon.py <out>/svg && python3 -I ../render.py <out>/svg <out>/png <out>/sheet.png '#333' 4 256
 
 iOS takes the square 1024 PNG and masks the corners itself. Android's adaptive icon uses the same art cropped to the
 centre 66% circle, so everything that matters stays inside the middle 680 px."""
@@ -14,7 +12,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from scenekit import CUBES  # noqa: E402
 from svgkit import blur, clip, p, rgrad, rrect, svg, vgrad  # noqa: E402
 
-OUT, CHARS = sys.argv[1], sys.argv[2]
+OUT = sys.argv[1]
 os.makedirs(OUT, exist_ok=True)
 S = 1024
 
@@ -77,28 +75,13 @@ def tile(x, y, s, colour, tilt=0, glyph=True):
     return out
 
 
-def mascot(name, cx, cy, size, tilt=0):
-    """A mascot SVG placed by the centre of its 512 box."""
-    href = f"file://{os.path.join(CHARS, name + '.svg')}"
-    return (f'<g transform="rotate({tilt} {cx} {cy})">'
-            + f'<image href="{href}" x="{cx - size / 2:.1f}" y="{cy - size / 2:.1f}" width="{size}" height="{size}"/></g>')
-
-
 def sparkle(x, y, r, alpha=1.0):
     g, gd = blur(r * 0.25)
     d = f"M{x} {y - r}C{x + r * 0.12} {y - r * 0.12} {x + r * 0.12} {y - r * 0.12} {x + r} {y}C{x + r * 0.12} {y + r * 0.12} {x + r * 0.12} {y + r * 0.12} {x} {y + r}C{x - r * 0.12} {y + r * 0.12} {x - r * 0.12} {y + r * 0.12} {x - r} {y}C{x - r * 0.12} {y - r * 0.12} {x - r * 0.12} {y - r * 0.12} {x} {y - r}z"
     return f"<defs>{gd}</defs>" + p(d, f'fill="#fff" fill-opacity="{0.8 * alpha}" filter="url(#{g})"') + p(d, f'fill="#fff" fill-opacity="{alpha}"')
 
 
-# A: the cube hero, face filling the frame, with tiles tumbling in from the corners.
-write("icon_a_hero",
-      burst("#7FD6FF", "#1C5BCB")
-      + tile(-120, -110, 330, "yellow", 18) + tile(800, -90, 300, "green", -14)
-      + tile(-130, 820, 320, "purple", -12) + tile(820, 830, 320, "blue", 16)
-      + mascot("char_cube", 512, 530, 1080, -6)
-      + sparkle(860, 250, 46) + sparkle(170, 300, 30, 0.9))
-
-# B: the mosaic mark alone, four tiles with the games' glyphs.
+# The mosaic mark alone, four tiles with the games' glyphs.
 gap, s = 30, 360
 x0, y0 = S / 2 - s - gap / 2, S / 2 - s - gap / 2 + 10
 write("icon_b_mosaic",
@@ -107,23 +90,4 @@ write("icon_b_mosaic",
       + tile(x0, y0, s, "blue") + tile(x0 + s + gap, y0, s, "yellow")
       + tile(x0, y0 + s + gap, s, "red") + tile(x0 + s + gap, y0 + s + gap, s, "green") + "</g>"
       + sparkle(800, 200, 56) + sparkle(210, 820, 34, 0.9))
-
-# C: the four mascots huddled, the cube in front.
-write("icon_c_friends",
-      burst("#8EE0FF", "#2E7FE0", cy=0.42)
-      + mascot("char_bear", 250, 400, 560, -10) + mascot("char_block", 790, 410, 520, 10)
-      + mascot("char_star", 520, 250, 480, 4)
-      + mascot("char_cube", 512, 680, 720, -3)
-      + sparkle(880, 150, 40))
-
-# D: the mosaic with a living tile: the cube mascot breaks out of the grid.
-gap, s = 26, 330
-x0, y0 = S / 2 - s - gap / 2 + 20, S / 2 - s - gap / 2 - 10
-write("icon_d_living",
-      burst("#7FD6FF", "#1C5BCB")
-      + f'<g transform="rotate(-6 {S / 2} {S / 2})">'
-      + tile(x0 + s + gap, y0, s, "yellow") + tile(x0, y0, s, "purple")
-      + tile(x0 + s + gap, y0 + s + gap, s, "green") + "</g>"
-      + mascot("char_cube", 330, 690, 610, -10)
-      + sparkle(860, 170, 48) + sparkle(160, 200, 30, 0.9))
 print("icon svgs")

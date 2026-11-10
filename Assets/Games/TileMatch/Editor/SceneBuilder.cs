@@ -33,7 +33,7 @@ namespace TileMatch.Editor
         private static readonly Color BadgeOutline = new Color32(122, 14, 8, 255);
         private const string HomeBackdrop = Game + "/Art/Backgrounds/bg_tm_home.png";
         private const string GameBackdrop = Game + "/Art/Backgrounds/bg_tm_game.png";
-        private const string BearPath = Game + "/Art/UI/char_bear.png";
+        private const string HeroPath = Game + "/Art/UI/hero_tiles.png";
 
         [MenuItem("Tileworks/Tile Match/Rebuild Scenes and Prefabs")]
         public static void Build()

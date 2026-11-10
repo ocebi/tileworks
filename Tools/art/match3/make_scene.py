@@ -1,4 +1,4 @@
-"""Writes the match-3 backdrops (a gem lagoon; Home sharp, Game blurred and dimmed) and the star gem mascot."""
+"""Writes the match-3 backdrops (a gem lagoon; Home sharp, Game blurred and dimmed)."""
 import math
 import os
 import random
@@ -149,53 +149,4 @@ dim, dimd = vgrad([(0, "#0B1A3A", 0.25), (1, "#3A2208", 0.3)])
 with open(os.path.join(OUT, "bg_match3_game.svg"), "w") as f:
     f.write(svg(f"<defs>{bd}{dimd}</defs><g filter=\"url(#{b})\">{home}</g>" + f'<rect width="{W}" height="{H}" fill="url(#{dim})"/>',
                 f"0 0 {W} {H}", (W, H)))
-
-
-def mascot():
-    light, base, dark, deep = GEM["yellow"]
-    cx, cy = 256, 282
-    pts = []
-    for i in range(10):
-        r = 222 if i % 2 == 0 else 120
-        a = math.radians(-90 + 36 * i)
-        pts.append((cx + r * math.cos(a), cy + r * math.sin(a)))
-    star = "M" + "L".join(f"{x:.1f} {y:.1f}" for x, y in pts) + "z"
-    body_g, body_gd = vgrad([(0, light, 1), (0.5, base, 1), (1, dark, 1)])
-    sh, shd = blur(9)
-    soft, softd = blur(5)
-    eye_g, eye_gd = rgrad([(0, "#FFFFFF", 1), (0.8, "#FFFFFF", 1), (1, "#E3E8F2", 1)], cx=0.45, cy=0.4, r=0.6)
-    c, cd = clip(p(star, 'stroke-width="44" stroke-linejoin="round"'))
-    out = (f"<defs>{body_gd}{shd}{softd}{eye_gd}{cd}</defs>"
-           + f'<ellipse cx="{cx}" cy="488" rx="170" ry="20" fill="#000" fill-opacity="0.28" filter="url(#{sh})"/>'
-           + p(star, f'transform="translate(0 18)" fill="{deep}" stroke="{deep}" stroke-width="44" stroke-linejoin="round"')
-           + p(star, f'fill="url(#{body_g})" stroke="url(#{body_g})" stroke-width="44" stroke-linejoin="round"'))
-    # Soft facets: a lit and a shaded half on each arm, like a cut gem.
-    for i in range(0, 10, 2):
-        tip, left, right = pts[i], pts[i - 1], pts[(i + 1) % 10]
-        a = math.atan2(tip[1] - cy, tip[0] - cx)
-        lit = -(math.cos(a) * -0.55 + math.sin(a) * -0.83)
-        out += p(f"M{cx} {cy}L{left[0]:.1f} {left[1]:.1f}L{tip[0]:.1f} {tip[1]:.1f}z", f'fill="{light if lit < 0 else deep}" fill-opacity="{0.35 if lit < 0 else 0.12}"')
-        out += p(f"M{cx} {cy}L{tip[0]:.1f} {tip[1]:.1f}L{right[0]:.1f} {right[1]:.1f}z", f'fill="{deep}" fill-opacity="0.1"')
-        out += p(f"M{cx} {cy}L{tip[0]:.1f} {tip[1]:.1f}", f'stroke="{light}" stroke-opacity="0.7" stroke-width="5" stroke-linecap="round"')
-    out += p(circ(cx, cy + 6, 120), f'fill="{base}" fill-opacity="0.55" filter="url(#{soft})"')
-    out += '<ellipse cx="240" cy="128" rx="34" ry="13" transform="rotate(-62 240 128)" fill="#fff" fill-opacity="0.75"/>'
-    out += p(circ(128, 214, 10), 'fill="#fff" fill-opacity="0.9"')
-    # Face: brows, big eyes, rosy cheeks and an open grin.
-    for x, tilt in ((206, -10), (306, 10)):
-        out += p(f"M{x - 34} 214Q{x} {190 + tilt} {x + 34} 214", f'fill="none" stroke="{deep}" stroke-width="13" stroke-linecap="round"')
-        out += f'<ellipse cx="{x}" cy="268" rx="40" ry="47" fill="url(#{eye_g})" stroke="{deep}" stroke-width="5"/>'
-        out += p(circ(x - 4, 262, 21), 'fill="#2A0E0B"') + p(circ(x - 12, 252, 8), 'fill="#fff"') + p(circ(x + 3, 272, 3.5), 'fill="#fff"')
-    out += '<ellipse cx="152" cy="324" rx="26" ry="15" fill="#FF8A6A" fill-opacity="0.7"/><ellipse cx="360" cy="324" rx="26" ry="15" fill="#FF8A6A" fill-opacity="0.7"/>'
-    mouth = "M210 320Q256 326 302 320Q298 380 256 380Q214 380 210 320z"
-    m, md = clip(p(mouth))
-    out += (f"<defs>{md}</defs>" + p(mouth, 'fill="#5A1A0A"')
-            + f'<g clip-path="url(#{m})">' + p(circ(256, 392, 34), 'fill="#FF6F7E"') + rrect(218, 314, 76, 16, 6, 'fill="#fff"') + "</g>"
-            + p(mouth, f'fill="none" stroke="{deep}" stroke-width="6" stroke-linejoin="round"'))
-    out += p(star, f'fill="none" stroke="{deep}" stroke-width="44" stroke-linejoin="round" stroke-opacity="0" ')
-    out += p("M404 92l9 24 24 9-24 9-9 24-9-24-24-9 24-9z", 'fill="#fff"')
-    return out
-
-
-with open(os.path.join(OUT, "char_star.svg"), "w") as f:
-    f.write(svg(mascot(), "0 0 512 512", (384, 384)))
 print("scene svgs")

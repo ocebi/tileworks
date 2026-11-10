@@ -1,4 +1,4 @@
-"""Writes the illustrated blast backdrops (a toy-block valley; Home sharp, Game blurred and dimmed) and the cube mascot."""
+"""Writes the illustrated blast backdrops (a toy-block valley; Home sharp, Game blurred and dimmed)."""
 import math
 import os
 import random
@@ -68,38 +68,4 @@ dim, dimd = vgrad([(0, "#0B1A3A", 0.22), (1, "#0B2A10", 0.35)])
 with open(os.path.join(OUT, "bg_blast_game.svg"), "w") as f:
     f.write(svg(f"<defs>{bd}{dimd}</defs><g filter=\"url(#{b})\">{home}</g>" + f'<rect width="{W}" height="{H}" fill="url(#{dim})"/>',
                 f"0 0 {W} {H}", (W, H)))
-
-
-def mascot():
-    light, base, dark, deep = CUBES["red"]
-    body_g, body_gd = vgrad([(0, light, 1), (0.45, base, 1), (1, dark, 1)])
-    face_g, face_gd = rgrad([(0, light, 1), (0.6, base, 1), (1, base, 0)], cx=0.5, cy=0.38, r=0.62)
-    soft, softd = blur(4)
-    sh, shd = blur(8)
-    eye_g, eye_gd = rgrad([(0, "#FFFFFF", 1), (0.8, "#FFFFFF", 1), (1, "#E3E8F2", 1)], cx=0.45, cy=0.4, r=0.6)
-    c, cd = clip(rrect(56, 60, 400, 380, 92))
-    out = (f"<defs>{body_gd}{face_gd}{softd}{shd}{eye_gd}{cd}</defs>"
-           + f'<ellipse cx="256" cy="486" rx="190" ry="22" fill="#000" fill-opacity="0.28" filter="url(#{sh})"/>'
-           + rrect(56, 84, 400, 380, 92, f'fill="{deep}"')
-           + rrect(56, 60, 400, 380, 92, f'fill="url(#{body_g})"')
-           + f'<g clip-path="url(#{c})">' + rrect(96, 90, 320, 290, 70, f'fill="url(#{face_g})" filter="url(#{soft})"') + "</g>"
-           + f'<ellipse cx="200" cy="104" rx="104" ry="30" transform="rotate(-6 200 104)" fill="#fff" fill-opacity="0.6"/>'
-           + p(circ(108, 98, 14), 'fill="#fff" fill-opacity="0.9"'))
-    # Face: brows, big eyes looking up-left, rosy cheeks and an open grin.
-    for x, tilt in ((180, -12), (332, 12)):
-        out += p(f"M{x - 46} 190Q{x} {160 + tilt} {x + 46} 190", f'fill="none" stroke="{deep}" stroke-width="18" stroke-linecap="round"')
-        out += f'<ellipse cx="{x}" cy="258" rx="54" ry="62" fill="url(#{eye_g})" stroke="{deep}" stroke-width="6"/>'
-        out += p(circ(x - 8, 248, 27), 'fill="#2A0E0B"') + p(circ(x - 18, 236, 10), 'fill="#fff"') + p(circ(x + 2, 262, 4), 'fill="#fff"')
-    out += '<ellipse cx="118" cy="330" rx="34" ry="20" fill="#FF9AA6" fill-opacity="0.75"/><ellipse cx="394" cy="330" rx="34" ry="20" fill="#FF9AA6" fill-opacity="0.75"/>'
-    mouth = "M186 322Q256 330 326 322Q320 404 256 404Q192 404 186 322z"
-    m, md = clip(p(mouth))
-    out += (f"<defs>{md}</defs>" + p(mouth, 'fill="#5A0E0A"')
-            + f'<g clip-path="url(#{m})">' + p(circ(256, 420, 46), 'fill="#FF6F7E"') + rrect(196, 316, 120, 22, 8, 'fill="#fff"') + "</g>"
-            + p(mouth, f'fill="none" stroke="{deep}" stroke-width="7" stroke-linejoin="round"'))
-    out += rrect(56, 60, 400, 380, 92, f'fill="none" stroke="{deep}" stroke-opacity="0.6" stroke-width="5"')
-    return out
-
-
-with open(os.path.join(OUT, "char_cube.svg"), "w") as f:
-    f.write(svg(mascot(), "0 0 512 512", (384, 384)))
 print("scene svgs")

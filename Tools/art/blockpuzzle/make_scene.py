@@ -1,5 +1,4 @@
-"""Writes the Block Puzzle backdrops (a starry night over a town of block towers; Home sharp, Game blurred and dimmed) and the
-block mascot."""
+"""Writes the Block Puzzle backdrops (a starry night over a town of block towers; Home sharp, Game blurred and dimmed)."""
 import os
 import random
 import sys
@@ -92,34 +91,4 @@ dim, dimd = vgrad([(0, "#05031A", 0.2), (1, "#05031A", 0.35)])
 with open(os.path.join(OUT, "bg_bp_game.svg"), "w") as f:
     f.write(svg(f"<defs>{bd}{dimd}</defs><g filter=\"url(#{b})\">{scene(towers=False)}</g>" + f'<rect width="{W}" height="{H}" fill="url(#{dim})"/>',
                 f"0 0 {W} {H}", (W, H)))
-
-
-def block_buddy():
-    light, base, dark, deep = CUBES["purple"]
-    body_g, body_gd = vgrad([(0, light, 1), (0.45, base, 1), (1, dark, 1)])
-    face_g, face_gd = rgrad([(0, light, 1), (0.6, base, 1), (1, base, 0)], cx=0.5, cy=0.38, r=0.62)
-    soft, softd = blur(4)
-    eye_g, eye_gd = rgrad([(0, "#FFFFFF", 1), (0.8, "#FFFFFF", 1), (1, "#E3E8F2", 1)], cx=0.45, cy=0.4, r=0.6)
-    c, cd = clip(rrect(56, 60, 400, 380, 92))
-    out = (f"<defs>{body_gd}{face_gd}{softd}{eye_gd}{cd}</defs>"
-           + rrect(56, 84, 400, 380, 92, f'fill="{deep}"')
-           + rrect(56, 60, 400, 380, 92, f'fill="url(#{body_g})"')
-           + f'<g clip-path="url(#{c})">' + rrect(96, 90, 320, 290, 70, f'fill="url(#{face_g})" filter="url(#{soft})"') + "</g>"
-           + '<ellipse cx="200" cy="104" rx="104" ry="30" transform="rotate(-6 200 104)" fill="#fff" fill-opacity="0.6"/>'
-           + p(circ(108, 98, 14), 'fill="#fff" fill-opacity="0.9"'))
-    out += p("M134 190Q180 166 226 190", f'fill="none" stroke="{deep}" stroke-width="18" stroke-linecap="round"')
-    out += f'<ellipse cx="180" cy="258" rx="54" ry="62" fill="url(#{eye_g})" stroke="{deep}" stroke-width="6"/>'
-    out += p(circ(186, 252, 27), 'fill="#1A0E33"') + p(circ(176, 240, 10), 'fill="#fff"')
-    out += p("M290 262Q332 228 374 262", f'fill="none" stroke="{deep}" stroke-width="16" stroke-linecap="round"')
-    out += p("M296 186Q334 172 372 196", f'fill="none" stroke="{deep}" stroke-width="18" stroke-linecap="round"')
-    out += '<ellipse cx="118" cy="330" rx="34" ry="20" fill="#FF9AC8" fill-opacity="0.75"/><ellipse cx="394" cy="330" rx="34" ry="20" fill="#FF9AC8" fill-opacity="0.75"/>'
-    out += p("M196 330Q256 392 316 330", f'fill="none" stroke="{deep}" stroke-width="14" stroke-linecap="round"')
-    for x in (130, 382):
-        out += rrect(x - 56, 430, 112, 70, 34, f'fill="url(#{body_g})" stroke="{deep}" stroke-width="6"')
-    out += rrect(56, 60, 400, 380, 92, f'fill="none" stroke="{deep}" stroke-opacity="0.6" stroke-width="5"')
-    return out
-
-
-with open(os.path.join(OUT, "char_block.svg"), "w") as f:
-    f.write(svg(block_buddy(), "0 0 512 512", (384, 384)))
 print("block puzzle scene svgs")
